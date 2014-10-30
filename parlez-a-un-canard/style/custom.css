@@ -1,0 +1,52 @@
+/****************/
+/* Custom Style */
+/****************/
+
+/* Removed ribbon */
+.slide:after {
+    content: none;
+}
+
+.badge {
+    width: 8em;
+    height: 8em;
+}
+.badge a, .badge a:hover {
+    line-height: 14px;
+    font-size: 11px;
+    text-shadow: 1px 1px #555;
+    background: #8C7952;
+}
+
+
+.slide.cover.meme h2 {
+    text-transform: uppercase;
+    font-family: Impact;
+    font-size:95px;
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.slide.centered {
+    text-align: center;
+}
+.slide.centered img {
+    margin: auto;
+}
+.slide.centered figure {
+    text-align: left;
+}
+
+/* Progressbar color */
+.full .progress div {
+    border-bottom-color: #008EDB;
+}
+
+/* Misc */
+.bordered-image {
+    border: 10px solid #3C3D40;
+}
