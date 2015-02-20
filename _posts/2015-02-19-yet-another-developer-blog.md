@@ -4,6 +4,7 @@ title:  "Yet another developer blog"
 date:   2015-02-19 18:00:00
 categories: 
 tags: introduction, writing, sharing
+comments: true
 image: /assets/article_images/2015-02-19-yet-another-developer-blog/DEC_VT100_terminal.jpg
 credit: Jason Scott - https://www.flickr.com/photos/54568729@N00/9636183501
 ---
