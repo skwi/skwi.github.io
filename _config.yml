@@ -24,7 +24,7 @@ analytics :
   provider : google
   google :
       tracking_id : 'UA-961763-22'
-  
+
 # social icons and sharing options
 social:
   - icon:	twitter
