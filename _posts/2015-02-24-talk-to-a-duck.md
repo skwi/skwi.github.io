@@ -2,8 +2,8 @@
 layout: post
 title:  "Talk to a duck"
 date: 2015-02-24 17:02:24
-categories: debuging 
-tags: debuging, talk, slides
+categories: debugging 
+tags: debugging, talk, slides
 comments: true
 image: /talks/parlez-a-un-canard/pictures/rubber-duck-city.jpg
 credit: Trey Ratcliff - http://www.florentijnhofman.nl/dev/content/info/files/presentation_of_projects.pdf
@@ -19,8 +19,8 @@ This was a french speaking conference, but this is a quite interesting subject, 
 
 > This can look ridiculous at first so I backed what I was saying with some science facts. First with the [Invisible Gorilla Experiment](http://www.theinvisiblegorilla.com/gorilla_experiment.html), explaining the basics of [Inattentional blindness](http://en.wikipedia.org/wiki/Inattentional_blindness), the reason why we need to explain our bugs out loud so that our brain flow can slow down and focus.
 
-> Another science experiement made by the swiss psychologist Jean Piaget showed that around our tenth anniversary, we start to become aware that other people and objects have a different point of view. This is an essential step to explain some problem to anyone. Basicaly, anyone over 12 year old can Rubber Duck Debug.
+> Another science experiment made by the swiss psychologist Jean Piaget showed that around our tenth anniversary, we start to become aware that other people and objects have a different point of view. This is an essential step to explain some problem to anyone. Basically, anyone over 12 year old can Rubber Duck Debug.
 
-> I then explained that you can go further, by replacing the duck with a coding buddy : a fellow programmer to whom you can explain your logical bugs, idealy with him knowing nothing of your project. You'll obviously get better feedback, but remember to always take time to explain the problem. 
+> I then explained that you can go further, by replacing the duck with a coding buddy : a fellow programmer to whom you can explain your logical bugs, ideally with him knowing nothing of your project. You'll obviously get better feedback, but remember to always take time to explain the problem. 
 
-This is a short summary of a short talk about this subject, so I encourage you to look further into rubber duck debugging, and in psychology of developpement in a more general purpose (I will talk a lot about this subject here). 
+This is a short summary of a short talk about this subject, so I encourage you to look further into rubber duck debugging, and in psychology of development in a more general purpose (I will talk a lot about this subject here). 

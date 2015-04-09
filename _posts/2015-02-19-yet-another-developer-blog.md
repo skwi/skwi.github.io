@@ -18,4 +18,4 @@ I don't mean skills like language knowledge or dev-tools mastering, but soft ski
 
 I'm not an expert in psychology and development processes, I'll probably never be, and there are plenty of other people who know better about it than me. But there are also people who know less or who want to talk about it, and I've discovered that I love sharing.
 
-So welcome to this new blog ! I hope that it will at least tickle your curiosity, should you be a fellow developper, someone working with our kind, or just passing by.
+So welcome to this new blog ! I hope that it will at least tickle your curiosity, should you be a fellow developer, someone working with our kind, or just passing by.
