@@ -20,6 +20,13 @@ paginate:	5
 url: "http://skwi.github.io"
 baseurl: ""
 
+analytics :
+  provider : google
+  google :
+      tracking_id : 'UA-961763-22'
+  getclicky :
+    site_id :
+
 # social icons and sharing options
 social:
   - icon:	twitter
