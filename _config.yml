@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "le_skwi"
 description: >
-   a blog about development, hopefully not about code
+   development is more about humans than code
 
 email: cedric@skwi.fr
 logo: "/assets/images/skwi.jpg"
