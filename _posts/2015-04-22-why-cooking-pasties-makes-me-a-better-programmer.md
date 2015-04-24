@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why cooking pasties makes me a better programmer"
+title:  "Why cooking pastries makes me a better programmer"
 date: 2015-04-22 14:00:00
 categories: self-enhancement
 tags: pastries, comparison
