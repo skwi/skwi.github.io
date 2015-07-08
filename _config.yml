@@ -5,7 +5,7 @@ highlighter: pygments
 # Site settings
 title: "le_skwi"
 description: >
-   development is more about humans than code
+   because development is more about humans than code
 
 email: cedric@skwi.fr
 logo: "/assets/images/skwi.jpg"

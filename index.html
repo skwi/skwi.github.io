@@ -4,26 +4,27 @@ layout: default
 
 <div class="teaserimage">
     <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
-        Teaser Image
     </div>
+</div>
+<div class="hello">
+    <p class="hello-paragraph me">Hi, I'am <a href="/about/">le_skwi</a></p>
+    <p class="hello-paragraph">I love <span class="thingsilove">writing clean code</span></p>
+    <p class="hello-paragraph detail">I am CTO at <a href="http://www.novaway.fr/">Novaway</a>, and write code for a living.</p>
+    <p class="hello-paragraph detail">But more than that, I like to study the <strong>human factor</strong> of coding, and the impact of <strong>psychology</strong> and <strong>social behavior</strong> as a way to improve <strong>code quality</strong>.</p>
 </div>
 
 <header class="blog-header">
     {% if site.logo %}
       <a class="blog-logo" href="{{site.url}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
     {% endif %}
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
-    <div class="custom-links">
+    <div class="social-links">
       {% for social in site.social %}
         {% if social.url %}
             <a class="icon-{{ social.icon }}" href="{{ social.url }}">
               <i class="fa fa-{{ social.icon }}"></i>
             </a>
-            &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
-      <a href="/about/">About</a>
     </div>
 </header>
 

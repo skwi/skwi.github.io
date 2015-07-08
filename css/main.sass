@@ -9,10 +9,13 @@
   @include clearfix
 
 $rs: 16px
+$theme-color: #cfad64
 
 $font-serif: Linux Libertine
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 
+$break-small: 500px
+$break-medium: 768px
 
 @mixin respond-to($breakpoint)
   @media only screen and (max-width: $breakpoint + px)
@@ -40,6 +43,8 @@ body
   font-feature-settings: "liga", "dlig"
 
 .logo-readium
+  @media (max-width: $break-medium)
+    display: none
   position: fixed
   left: 10px
   top: 10px
@@ -72,12 +77,53 @@ body
     right: 0
     bottom: 0
     z-index: 1
-    text-indent: -9999px
+    opacity: 0.55
+.hello
+  font-size: 16px
+  @media (max-width: $break-medium)
+    font-size: 13px
+  @media (max-width: $break-small)
+    font-size: 11px
+  max-height: 450px
+  position: absolute
+  overflow: hidden
+  top: 0
+  left: 0
+  right: 0
+  width: 100%
+  max-width: 764px
+  margin: 60px auto 0
+  z-index: 2
+  .hello-paragraph
+    width: 95%
+    margin: 5px auto
+    color: #fff
+    font-size: 1.7em
+    line-height: 1.3em
+    font-weight: bold
+    display: block
+    min-height: 45px
+    @media (max-width: $break-small)
+      width: 90%
+      min-height: 35px
+      line-height: 1.4em
+    a
+      text-decoration: none
+      color: $theme-color
+    &.me
+      font-size: 3em
+      @media (max-width: $break-small)
+        font-size: 2.5em
+    &.detail
+      min-height: 35px
+      font-weight: normal
+      font-size: 1.8em
+      line-height: 1.25em
 
 .blog-header
   width: 100%
   max-width: 640px
-  margin: 0 auto
+  margin: 0 auto (50px + $rs*3.75)
   position: relative
   padding: 0
   @include box-sizing(border-box)
@@ -99,34 +145,32 @@ body
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3)
     box-shadow: 0 1px 1px rgba(0,0,0,0.3)
-  .blog-title
-    margin: 0
-    padding: $rs*5.25 $rs $rs/2
-    font-size: 50px
-    text-align: center
-    font-weight: 700
-    letter-spacing: -2px
-    outline: 0
-    line-height: 50px
-    word-break: break-word
-    color: #333
-  .blog-description
-    margin: 0 0 20px
-    padding: 0 $rs*2
-    font-size: $rs/8*9
-    line-height: 1.5
-    color: #666
-    text-align: center
-    font-weight: 400
-  .custom-links
-    margin: 0 0 50px
-    text-align: center
+  .social-links
+    position: absolute
+    top: -$rs*1.875
+    right: 50%
+    margin-right: -$rs*8.75
     color: #ccc
+    z-index: 99
     a
+      display: inline-block
+      border-radius: 50%
+      background-color: #000
       text-decoration: none
-      color: #999
+      padding: 10px
+      height: $rs * 2.5
+      width: $rs * 2.5
+      font-size: $rs * 2
+      border: 2px solid $theme-color
+      color: $theme-color
+      text-align: center
+      line-height: 1.2em
+      &:nth-child(even)
+        margin-left: $rs*9.5
       &:hover
-        color: #333
+        color: #000
+        background-color: $theme-color
+        border-color: #000
 
 .content
   width: 100%
@@ -404,13 +448,13 @@ body
     blockquote
       margin: 0 0 30px
       margin-left: -26px
-      border-left: 3px solid #57ad68
+      border-left: 3px solid $theme-color
       padding-left: 20px
       p
         letter-spacing: 0.01rem
         font-weight: 400
         font-style: italic
-        mborder-left: 3px solid #57ad68
+        mborder-left: 3px solid $theme-color
         mpadding-left: 20px
         mmargin-left: -26px
         padding-bottom: 3px
@@ -530,6 +574,7 @@ body
   width: 100%
   position: relative
   overflow: hidden
+  background-color: #000
   .background-closer-image
     position: absolute
     top: 0
@@ -540,6 +585,7 @@ body
     background-size: cover
     background-repeat: no-repeat
     background-position: center
+    opacity: 0.5
   .inner
     width: 100%
     position: relative
@@ -581,7 +627,7 @@ body
       text-decoration: none
       cursor: pointer
       height: 44px
-      background: #57ad68
+      background: $theme-color
       color: #fff
       vertical-align: middle
       box-sizing: border-box
