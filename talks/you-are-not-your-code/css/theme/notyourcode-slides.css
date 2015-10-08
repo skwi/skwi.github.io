@@ -1,0 +1,221 @@
+#home h1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 500; }
+  #home h1 .first-part {
+    font-size: 1.5em;
+    letter-spacing: -13px;
+    word-spacing: 10px; }
+  #home h1 .not {
+    font-family: 'CubanoRegular';
+    display: block;
+    font-size: 3em;
+    line-height: 0.6;
+    letter-spacing: -13.7142857143px;
+    color: #f7343f; }
+  #home h1 .last-part {
+    font-size: 1.4em;
+    line-height: 1.3;
+    font-family: 'signpainter';
+    font-weight: 700; }
+#home .right, #home .left {
+  margin-top: 90px; }
+
+#me .virtual-line {
+  height: 272px;
+  width: 100%; }
+#me .fat-line {
+  height: 175px;
+  width: 80%;
+  background: #fff;
+  position: relative;
+  top: 40px;
+  color: #41464c;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 25px;
+  line-height: 0.9em; }
+  #me .fat-line .name {
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 0; }
+  #me .fat-line .job, #me .fat-line .twitter {
+    margin: 0; }
+#me .more {
+  position: relative;
+  top: 40px;
+  text-align: right;
+  padding-right: 50px;
+  padding-top: 25px;
+  line-height: 0.9em; }
+  #me .more .right-icon {
+    display: block;
+    padding: 0 76px 10px 0; }
+    #me .more .right-icon a {
+      color: #fff; }
+#me .skwi-image {
+  background: url('../../images/skwi.jpg') no-repeat center center;
+  border-radius: 50%;
+  width: 272px;
+  height: 272px;
+  border: 5px solid #fff;
+  box-shadow: 1px 1px 3px #222;
+  position: relative;
+  left: 30px; }
+
+#mrrobot .mrrobot-logo {
+  border: none;
+  background: none;
+  box-shadow: none; }
+
+#ben-franklin {
+  padding-top: 0; }
+  #ben-franklin .half-panel {
+    padding-top: 160px; }
+    #ben-franklin .half-panel .quote {
+      padding: 140px 0 0 40px;
+      font-weight: 400; }
+
+#dissonance .text {
+  float: right;
+  clear: both;
+  padding: 0px 53.3333333333px; }
+#dissonance .dissonance {
+  font-weight: 800;
+  font-size: 2.5em;
+  padding-top: 70px; }
+#dissonance .cognitive {
+  position: relative;
+  font-family: 'signpainter';
+  font-weight: 700;
+  color: #f7343f;
+  font-size: 5.1em;
+  line-height: 0.4em;
+  z-index: 5; }
+#dissonance .jackie {
+  position: relative;
+  padding: 0px 53.3333333333px;
+  border: none;
+  box-shadow: none;
+  float: left;
+  clear: both;
+  width: 600px;
+  z-index: 1; }
+
+#what-about-programming {
+  font-size: 3.8em; }
+  #what-about-programming .et-le-code {
+    font-size: 1.3em;
+    line-height: 0.4em; }
+    #what-about-programming .et-le-code .et-le {
+      letter-spacing: -9.6px; }
+    #what-about-programming .et-le-code .code {
+      font-family: 'signpainter';
+      font-weight: 700;
+      font-size: 1.3em; }
+  #what-about-programming .tout-ca {
+    letter-spacing: -9.6px;
+    font-weight: 800; }
+  #what-about-programming .question {
+    width: 192px;
+    font-weight: 800;
+    font-size: 2.7em;
+    line-height: 0.04em; }
+
+#egoless-programming {
+  font-size: 3.8em;
+  line-height: 0.9em; }
+  #egoless-programming .egoless {
+    color: #006282;
+    font-family: 'signpainter';
+    font-weight: 700;
+    font-size: 2em;
+    text-indent: -384px; }
+  #egoless-programming .programming {
+    letter-spacing: -12px;
+    font-weight: 800;
+    padding-left: 204.2553191489px; }
+
+section.command .numero {
+  font-family: 'CubanoRegular';
+  font-size: 6.8em;
+  float: left;
+  padding-top: 116.6666666667px;
+  height: 700px;
+  width: 300px;
+  letter-spacing: -15px; }
+  section.command .numero .hash {
+    font-size: 0.8em; }
+section.command .text {
+  text-align: left;
+  font-size: 2.95em;
+  line-height: 0.9em;
+  letter-spacing: -7.1111111111px;
+  padding-top: 116.6666666667px;
+  height: 466.6666666667px; }
+section.command .alt {
+  display: inline-block;
+  font-family: 'signpainter';
+  font-weight: 700;
+  font-size: 1.8em;
+  letter-spacing: normal;
+  line-height: 0.5em; }
+
+#command-1 .numero {
+  width: 223.2558139535px; }
+#command-1 .alt {
+  display: block;
+  font-size: 2em; }
+
+#command-2 strong {
+  text-decoration: underline; }
+#command-2 .text {
+  padding-top: 194.4444444444px; }
+
+#command-3 .text {
+  font-size: 2.3em; }
+#command-3 strong {
+  font-size: 1.1em; }
+
+#command-4 .text {
+  padding-top: 140px; }
+#command-4 .alt {
+  font-size: 1.5em; }
+
+#command-6 .text {
+  padding-top: 140px; }
+#command-6 .alt {
+  font-size: 1.7em; }
+
+#command-7 .text {
+  font-size: 2.5em; }
+#command-7 .alt {
+  font-size: 1.7em; }
+
+#command-8 .text {
+  font-size: 2.65em; }
+
+#command-9 .text {
+  font-size: 3.1em; }
+#command-9 .alt {
+  font-size: 1.5em; }
+#command-9 .text {
+  padding-top: 162.7906976744px; }
+
+#command-10 .numero {
+  width: 369.2307692308px; }
+#command-10 .alt {
+  font-size: 1.5em; }
+
+#egoless-team .egoless-team {
+  font-family: 'CubanoRegular';
+  font-size: 3em; }
+#egoless-team .histoire {
+  letter-spacing: -7.1111111111px;
+  line-height: 0.7em;
+  font-size: 2.2em; }
+  #egoless-team .histoire .alt {
+    display: block;
+    font-family: 'signpainter';
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: normal; }

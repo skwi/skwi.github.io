@@ -1,0 +1,37 @@
+$screenHeight: 700px;
+$screenWidth: 960px;
+
+$backgroundColor: #222;
+$shadowColor: #222;
+
+$mainColorRed: rgba(247, 52, 63, 1);
+$mainColorRedAlpha: rgba(247, 52, 63, 0.85);
+$mainColorBlue: rgba(25, 34, 48, 1);
+$mainColorBlueAlpha: rgba(25, 34, 48, 0.85);
+$mainColorPurple: rgba(82, 43, 172, 1);
+$mainColorPurpleAlpha: rgba(82, 43, 172, 0.85);
+
+$mainColor: #fff;
+$headingColor: #fff;
+$invertColor: #41464c;
+$invertColorRed: #F03844;
+$alternativeColorRed: #ffa9ac;
+$alternativeColorBlue: #00d2ff;
+$alternativeColorBlueDark: #006282;
+$alternativeColorPurple: #9378ff;
+
+$mainFontSize: 38px;
+$mainFont: 'Raleway', 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Raleway', 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #42affa;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.5em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
