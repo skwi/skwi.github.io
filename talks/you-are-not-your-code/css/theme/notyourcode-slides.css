@@ -32,26 +32,28 @@
   color: #41464c;
   text-align: right;
   padding-right: 50px;
-  padding-top: 25px;
-  line-height: 0.9em; }
+  padding-top: 25px; }
   #me .fat-line .name {
     font-size: 1.8em;
     font-weight: 500;
-    margin: 0; }
-  #me .fat-line .job, #me .fat-line .twitter {
-    margin: 0; }
+    margin: 5px 0 0; }
+  #me .fat-line .job {
+    line-height: 0; }
 #me .more {
   position: relative;
   top: 40px;
   text-align: right;
   padding-right: 50px;
-  padding-top: 25px;
-  line-height: 0.9em; }
+  padding-top: 25px; }
   #me .more .right-icon {
     display: block;
     padding: 0 76px 10px 0; }
     #me .more .right-icon a {
       color: #fff; }
+  #me .more .bitly {
+    background: url('../../images/icon-link.png') no-repeat right center; }
+  #me .more .twitter {
+    background: url('../../images/icon-twitter.png') no-repeat right center; }
 #me .skwi-image {
   background: url('../../images/skwi.jpg') no-repeat center center;
   border-radius: 50%;
@@ -66,14 +68,12 @@
   border: none;
   background: none;
   box-shadow: none; }
+#mrrobot ul {
+  list-style-type: none;
+  text-align: center; }
 
-#ben-franklin {
-  padding-top: 0; }
-  #ben-franklin .half-panel {
-    padding-top: 160px; }
-    #ben-franklin .half-panel .quote {
-      padding: 140px 0 0 40px;
-      font-weight: 400; }
+#psycho-of-cp div {
+  padding-top: 250px; }
 
 #dissonance .text {
   float: right;
@@ -101,6 +101,14 @@
   width: 600px;
   z-index: 1; }
 
+#ben-franklin {
+  padding-top: 0; }
+  #ben-franklin .half-panel {
+    padding-top: 160px; }
+    #ben-franklin .half-panel .quote {
+      padding: 140px 0 0 40px;
+      font-weight: 400; }
+
 #what-about-programming {
   font-size: 3.8em; }
   #what-about-programming .et-le-code {
@@ -121,19 +129,28 @@
     font-size: 2.7em;
     line-height: 0.04em; }
 
-#egoless-programming {
+#my-code {
   font-size: 3.8em;
+  letter-spacing: -9.6px; }
+  #my-code .my {
+    font-family: 'signpainter';
+    font-weight: 700;
+    font-size: 1.3em;
+    text-decoration: underline; }
+
+#egoless-programming {
+  font-size: 3.4em;
   line-height: 0.9em; }
   #egoless-programming .egoless {
     color: #006282;
     font-family: 'signpainter';
     font-weight: 700;
     font-size: 2em;
-    text-indent: -384px; }
+    text-indent: -309.6774193548px; }
   #egoless-programming .programming {
     letter-spacing: -12px;
     font-weight: 800;
-    padding-left: 204.2553191489px; }
+    padding-left: 184.6153846154px; }
 
 section.command .numero {
   font-family: 'CubanoRegular';
@@ -147,7 +164,7 @@ section.command .numero {
     font-size: 0.8em; }
 section.command .text {
   text-align: left;
-  font-size: 2.95em;
+  font-size: 2.85em;
   line-height: 0.9em;
   letter-spacing: -7.1111111111px;
   padding-top: 116.6666666667px;
@@ -201,6 +218,9 @@ section.command .alt {
 #command-9 .text {
   padding-top: 162.7906976744px; }
 
+#command-9-img p {
+  float: right; }
+
 #command-10 .numero {
   width: 369.2307692308px; }
 #command-10 .alt {
@@ -219,3 +239,15 @@ section.command .alt {
     font-weight: 700;
     font-size: 1.3em;
     letter-spacing: normal; }
+
+#go {
+  margin-top: -140px;
+  font-size: 3.8em;
+  line-height: 0.8em;
+  letter-spacing: -10.6666666667px;
+  text-align: center;
+  font-weight: 800; }
+
+#questions {
+  font-family: 'CubanoRegular';
+  font-size: 3em; }

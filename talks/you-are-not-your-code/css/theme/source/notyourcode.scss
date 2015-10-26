@@ -31,20 +31,6 @@ section.has-light-background {
 .left { display: block; float: left; }
 .clear { clear: both; }
 
-.half-panel {
-  height: $screenHeight;
-  width: $screenWidth / 2;
-  text-shadow: 1px 1px 1px $shadowColor;
-  &.left {
-    text-align: right;
-  }
-  &.right {
-    text-align: left;
-  }
-  &.left, &.right {
-    padding: 35px;
-  }
-}
 .quote {
   display: block;
   padding-top: $screenHeight / 5;
@@ -66,16 +52,20 @@ section.has-light-background {
   color: $invertColor;
 }
 .red {
-  .half-panel { background-color: $mainColorRedAlpha; }
+  blockquote { background-color: $mainColorRedAlpha; }
   .alt { color: $alternativeColorRed; }
 }
 .blue {
-  .half-panel { background-color: $mainColorBlueAlpha; }
+  blockquote { background-color: $mainColorBlueAlpha; }
   .alt { color: $alternativeColorBlue; }
 }
 .purple {
-  .half-panel { background-color: $mainColorPurpleAlpha; }
+  blockquote { background-color: $mainColorPurpleAlpha; }
   .alt { color: $alternativeColorPurple; }
+}
+
+.fullwidth {
+  width: 100%
 }
 
 @import "./notyourcode-slides";

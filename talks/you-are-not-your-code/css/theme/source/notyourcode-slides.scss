@@ -49,14 +49,13 @@
     text-align: right;
     padding-right: $fatline-padding * 2;
     padding-top: $fatline-padding;
-    line-height: 0.9em;
     .name {
       font-size: 1.8em;
       font-weight: 500;
-      margin: 0;
+      margin: 5px 0 0;
     }
-    .job, .twitter {
-      margin: 0;
+    .job {
+      line-height: 0;
     }
   }
   .more {
@@ -65,15 +64,16 @@
     text-align: right;
     padding-right: $fatline-padding * 2;
     padding-top: $fatline-padding;
-    line-height: 0.9em;
     .right-icon {
       display: block;
       padding: 0 76px 10px 0;
       a { color: $mainColor; }
     }
     .bitly {
+      background: url('../../images/icon-link.png') no-repeat right center;
     }
     .twitter {
+      background: url('../../images/icon-twitter.png') no-repeat right center;
     }
   }
   .skwi-image {
@@ -94,16 +94,15 @@
     background: none;
     box-shadow: none;
   }
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
 }
 
-#ben-franklin {
-  padding-top: 0;
-  .half-panel {
-    padding-top: 160px;
-    .quote {
-      padding: 140px 0 0 40px;
-      font-weight: 400;
-    }
+#psycho-of-cp {
+  div {
+    padding-top: 250px;
   }
 }
 
@@ -139,6 +138,17 @@
   }
 }
 
+#ben-franklin {
+  padding-top: 0;
+  .half-panel {
+    padding-top: 160px;
+    .quote {
+      padding: 140px 0 0 40px;
+      font-weight: 400;
+    }
+  }
+}
+
 #what-about-programming {
   font-size: 3.8em;
   .et-le-code {
@@ -165,20 +175,31 @@
   }
 }
 
-#egoless-programming {
+#my-code {
   font-size: 3.8em;
+  letter-spacing: -$screenWidth / 100;
+  .my {
+    font-family: 'signpainter';
+    font-weight: 700;
+    font-size: 1.3em;
+    text-decoration: underline;
+  }
+}
+
+#egoless-programming {
+  font-size: 3.4em;
   line-height: 0.9em;
   .egoless {
     color: $alternativeColorBlueDark;
     font-family: 'signpainter';
     font-weight: 700;
     font-size: 2em;
-    text-indent: -$screenWidth/2.5;
+    text-indent: -$screenWidth/3.1;
   }
   .programming {
     letter-spacing: -$screenWidth / 80;
     font-weight: 800;
-    padding-left: $screenWidth/4.7;
+    padding-left: $screenWidth/5.2;
   }
 }
 
@@ -197,7 +218,7 @@ section.command {
   }
   .text {
     text-align: left;
-    font-size: 2.95em;
+    font-size: 2.85em;
     line-height: 0.9em;
     letter-spacing: - $screenWidth / 135;
     padding-top: $screenHeight/6;
@@ -247,6 +268,11 @@ section.command {
   .alt { font-size: 1.5em; }
   .text { padding-top: $screenHeight / 4.3; }
 }
+#command-9-img {
+  p {
+    float: right;
+  }
+}
 #command-10 {
   .numero { width: $screenWidth / 2.6; }
   .alt { font-size: 1.5em; }
@@ -269,4 +295,18 @@ section.command {
       letter-spacing: normal;
     }
   }
+}
+
+#go {
+  margin-top: -140px;
+  font-size: 3.8em;
+  line-height: 0.8em;
+  letter-spacing: -$screenWidth / 90;
+  text-align: center;
+  font-weight: 800;
+}
+
+#questions {
+  font-family: 'CubanoRegular';
+  font-size: 3em;
 }
