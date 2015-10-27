@@ -93,6 +93,7 @@
     border: none;
     background: none;
     box-shadow: none;
+    padding-top: 50px;
   }
   ul {
     list-style-type: none;
@@ -139,13 +140,8 @@
 }
 
 #ben-franklin {
-  padding-top: 0;
-  .half-panel {
-    padding-top: 160px;
-    .quote {
-      padding: 140px 0 0 40px;
-      font-weight: 400;
-    }
+  div {
+    padding-top: 400px;
   }
 }
 

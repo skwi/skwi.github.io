@@ -67,7 +67,8 @@
 #mrrobot .mrrobot-logo {
   border: none;
   background: none;
-  box-shadow: none; }
+  box-shadow: none;
+  padding-top: 50px; }
 #mrrobot ul {
   list-style-type: none;
   text-align: center; }
@@ -101,13 +102,8 @@
   width: 600px;
   z-index: 1; }
 
-#ben-franklin {
-  padding-top: 0; }
-  #ben-franklin .half-panel {
-    padding-top: 160px; }
-    #ben-franklin .half-panel .quote {
-      padding: 140px 0 0 40px;
-      font-weight: 400; }
+#ben-franklin div {
+  padding-top: 400px; }
 
 #what-about-programming {
   font-size: 3.8em; }
