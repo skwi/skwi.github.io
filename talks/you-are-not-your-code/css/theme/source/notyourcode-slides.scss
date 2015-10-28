@@ -265,8 +265,12 @@ section.command {
   .text { padding-top: $screenHeight / 4.3; }
 }
 #command-9-img {
-  p {
+  .just-a-tech {
     float: right;
+    font-family: 'CubanoRegular';
+    font-size: 2em;
+    padding-right: 50px;
+    line-height: 1em;
   }
 }
 #command-10 {

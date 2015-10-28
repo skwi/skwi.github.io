@@ -214,8 +214,12 @@ section.command .alt {
 #command-9 .text {
   padding-top: 162.7906976744px; }
 
-#command-9-img p {
-  float: right; }
+#command-9-img .just-a-tech {
+  float: right;
+  font-family: 'CubanoRegular';
+  font-size: 2em;
+  padding-right: 50px;
+  line-height: 1em; }
 
 #command-10 .numero {
   width: 369.2307692308px; }
