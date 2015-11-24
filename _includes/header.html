@@ -1,5 +1,37 @@
-<!-- header start -->
+<!doctype html>
+<html lang="fr">
+<head>
 
-<a href="{{ site.url }}" class="logo-readium"><span class="logo" style="background-image: url({{ site.logo }})"></span></a>
+    <title>{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}</title>
 
-<!-- header end -->
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description"
+          content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+
+    <!-- Facebook -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} &mdash;{% endif %} {{ site.name }}"/>
+    <meta property="og:site_name" content="le_skwi"/>
+    <meta property="og:url" content="{{ site.url }}{% if page.url != '/index.html' %}{{ page.url }}{% endif %}"/>
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}blog{% endif %}"/>
+    <meta property="og:description"
+          content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
+    {% if page.social_image %}
+    <meta property="og:image" content="{{site.url}}{{ page.social_image }}" />
+    {% else if page.image %}
+    <meta property="og:image" content="{{site.url}}{{ page.image }}" />
+    {% endif %}
+
+    <!-- Twitter Analytics -->
+    <meta property="twitter:account_id" content="5953102"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{ site.baseurl }}assets/favicon.ico" type="image/x-icon"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}css/main.css" type="text/css"/>
+
+</head>
+<body>

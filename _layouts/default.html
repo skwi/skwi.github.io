@@ -1,24 +1,39 @@
-<!DOCTYPE html>
-<html>
+{% include header.html %}
+{% include header.html %}
 
-  {% include head.html %}
+{% include nav.html lang='fr' %}
 
-  <body>
+<div class="container">
 
-    {% include header.html %}
-    <!-- content start -->
+    <div id="content">
+        {% for post in site.categories.fr %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        {% if forloop.first %}
+        <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+        <ul id="postlist">
+            {% endif %}
+
+            <li class="posttitle">
+                <span class="month">[{% include date.html date=post.date lang='fr' mode='day-month' %}]</span>
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </li>
+
+            {% if forloop.last %}
+        </ul>
+        {% else %}
+        {% if this_year != next_year %}
+        </ul>
+        <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+        <ul>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
     </div>
+    <!--/content-->
+</div> <!--/container-->
 
-    <!-- content end -->
-
-    {% include footer.html %}
-    {% include javascripts.html %}
-
-  </body>
-
-</html>
+{% include footer.html %}
