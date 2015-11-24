@@ -5,7 +5,7 @@ date:   2015-11-24 18:00:00
 categories: fr
 tags: écriture, partage
 comments: true
-social_image: "/assets/post_images/2015-11-24-do-you-speak-french/royal-with-cheese.gif"
+social_image: "/assets/post_images/2015-11-24-do-you-speak-french/royal-with-cheese.jpg"
 description: Du changement sur le blog. Au menu, un style complètement revu, et du contenu en français.
 ---
 Si vous suivez un peu ce blog, vous avez pu constater 2 changements majeurs. 
