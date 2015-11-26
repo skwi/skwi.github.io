@@ -16,7 +16,9 @@ Sinon j'aime
 <a href="/assets/img/coffee.gif" onmouseover="setGif('/assets/img/coffee.gif')" onmouseout="unsetGif()">le café</a>, 
 <a href="/assets/img/beer.gif" onmouseover="setGif('/assets/img/beer.gif')" onmouseout="unsetGif()">la bière artisanale</a>,
 <a href="/assets/img/cooking.gif" onmouseover="setGif('/assets/img/cooking.gif')" onmouseout="unsetGif()">la cuisine</a> et les GIFs.
+
 <div id="gif-target"></div>
+
 <script>
     setGif = function(imgsource) {
         document.getElementById("gif-target").innerHTML = '<img src="' + imgsource + '" />'; 
