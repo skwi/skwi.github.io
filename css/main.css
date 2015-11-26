@@ -218,6 +218,23 @@ fieldset {
     width: 640px;
 }
 
+.post img.right {
+    width: auto;
+    float: right;
+}
+
+.post img.left {
+    width: auto;
+    float: left;
+}
+
+.post h3 {
+    display: block;
+    font-size: 1.17em;
+    line-height: 1em;
+    margin: 1.7em auto 0;
+}
+
 .footnotes {
     font-size: 16px;
     line-height: 1.6em;
@@ -496,6 +513,7 @@ h1.sitetitle a, h2.sitetitle a {
 
 .articledate {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .date, .description {
