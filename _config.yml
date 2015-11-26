@@ -3,3 +3,4 @@ name: le_skwi
 baseurl: /
 url: http://skwi.github.io
 permalink: none
+markdown: kramdown
