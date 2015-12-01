@@ -62,7 +62,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Merriweather, Georgia, serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -464,7 +464,7 @@ h1.sitetitle, h2.sitetitle {
 
 .sitetitle {
     font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Merriweather, Georgia, serif;
     text-transform: lowercase;
     font-weight: 100;
     display: block;
