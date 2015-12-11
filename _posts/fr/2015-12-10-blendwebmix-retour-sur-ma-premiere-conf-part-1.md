@@ -18,7 +18,7 @@ Il y a quelques semaines lors du [BlendWebMix](http://www.blendwebmix.com), j’
 
 Ceux qui me connaissent savent qu'on peut me classer sans trop d'hésitation dans la catégorie des **introvertis**. Ce que l'on sait moins c'est qu'il m'a fallu une trentaine d’années pour me rendre compte que ce n’est pas une mauvaise chose.
 
-On vit aujourd'hui dans une société qui cultive l'extroversion, où les valeurs mises en avant sont le charisme et la réussite de l'individu, où les environnements de travail et d'éducation sont de plus en plus tournés vers le travail en groupe que vers l'autonomie.
+On vit aujourd'hui dans une société qui cultive l'extroversion, où les valeurs mises en avant sont le charisme et la réussite de l'individu, où les environnements de travail et d'éducation sont de plus en plus tournés vers le travail en groupe plutôt que vers l'autonomie.
 
 Je ne vais pas m'attarder sur la place de l'extroversion et l'introversion dans la société actuelle (je laisse ça à [Susan Cain](http://www.amazon.com/Quiet-Power-Introverts-World-Talking-ebook/dp/B0074YVW1G/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr=)). En revanche, je pense qu'il est important de relever cette remarque que j'ai entendu une bonne partie de ma vie :
 
@@ -63,21 +63,21 @@ A ce moment, j'ai en tête un sujet pour un “vrai” talk. Je décide de le cr
 
 Au début de l'année, je fais la découverte d'un mal dont beaucoup d'entre nous sont atteints : **le syndrome de l'imposteur**.
 
-Ce syndrome se caractérise par le fait de pense que "vu que je ne suis pas le meilleur dans mon domaine, quelle légitimité aurais je à parler de ce que je fais ?".
+Ce syndrome se caractérise par le fait de penser que "vu que je ne suis pas le meilleur dans mon domaine, quelle légitimité aurais je à parler de ce que je fais ?".
 
 ![Man with no face](/assets/post_images/2015-12-10-blendwebmix-retour-sur-ma-premiere-conf/noone.gif)
 
-Et pourtant, je ne suis pas le moins bon non plus, alors si les fruits de mon expérience et de mes recherches peuvent servir à d'autre, pourquoi s'en priver ?
+Et pourtant, je ne suis pas le moins bon non plus, alors si les fruits de mon expérience et de mes recherches peuvent servir à d'autres, pourquoi se priver d'en parler ?
 
-C'est dans cet état d'esprit que je lance en février le blog que vous avez sous les yeux, avec pour ligne éditoriale : *parler de développement, pas de code, en abordant l'aspect humain du métier*. 
+C'est dans cet état d'esprit que je lance en février le blog que vous avez sous les yeux, avec pour ligne éditoriale : *parler de développement, mais pas de code, en abordant l'aspect humain du métier*. 
 
-Pas de grandes pompes mais les articles sont  plutôt bien accueillis, certains font même réagir.  Je décide alors de creuser le sujet, en me focalisant sur le thème que je garde de côté : **l'egoless programming**. 
+Les articles sont  plutôt bien accueillis, certains font même réagir. Je décide alors de creuser le sujet, en me focalisant sur le thème que je garde de côté : **l'egoless programming**. 
 
 ### --dry-run
 
-Une fois mon sujet travaillé, je draft quelques slides pour les présenter à mon équipe et recueillir des avis et des conseils (j'en profite pour les remercier au passage, pour les feedback et le soutient). 
+Une fois mon sujet travaillé, je draft quelques slides pour les présenter à mon équipe et recueillir des avis et des conseils (d'ailleurs, j'en profite pour les remercier au passage pour les feedbacks et le soutient). 
 
-Les retours sont constructifs, et le sujet est considéré comme "blendable". Par contre il faut que j'utilise avec plus de parcimonie les GIF animés, qui détournent un peu l'attention de l'auditoire ... c'est bien mal me connaitre !
+Leurs retours sont constructifs, et le sujet est considéré comme "Blendable". Par contre ils me conseillent d'utiliser avec plus de parcimonie les GIF animés, qui détournent un peu l'attention de l'auditoire ... c'est bien mal me connaitre !
 
 ![meeting laught](/assets/post_images/2015-12-10-blendwebmix-retour-sur-ma-premiere-conf/lol.gif)
 
