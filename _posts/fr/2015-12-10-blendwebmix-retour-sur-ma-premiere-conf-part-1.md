@@ -5,7 +5,8 @@ date: 2015-12-10 18:00:00
 categories: fr
 tags: conférence, introversion, réflexion, partage, malife   
 comments: true
---description: Du changement sur le blog. Au menu, un style complètement revu, et du contenu en français.
+social_image: "/assets/post_images/2015-12-10-blendwebmix-retour-sur-ma-premiere-conf/blend.jpg"
+description: Première partie de mon retour d'éxpérience sur ma participation en tant que conférencier au Blend Web Mix 2015
 ---
 
 Il y a quelques semaines lors du [BlendWebMix](http://www.blendwebmix.com), j’ai donné ma première _vrai_ conférence (je reviendrais sur le terme _vrai_ un peu plus tard dans l'article).
