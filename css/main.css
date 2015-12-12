@@ -1159,3 +1159,16 @@ pre {
     font-size: 15px !important;
 }
 
+table#social-sharing  {
+    border: none;
+    width:100%;
+}
+
+table#social-sharing td{
+    text-align: center;
+    width: 25%;
+}
+
+table#social-sharing td.push-bottom{
+    padding-top: 30px;
+}
