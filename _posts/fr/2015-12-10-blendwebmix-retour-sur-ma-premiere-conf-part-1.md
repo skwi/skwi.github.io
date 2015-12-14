@@ -9,7 +9,7 @@ social_image: "/assets/post_images/2015-12-10-blendwebmix-retour-sur-ma-premiere
 description: Première partie de mon retour d'éxpérience sur ma participation en tant que conférencier au Blend Web Mix 2015
 ---
 
-Il y a quelques semaines lors du [BlendWebMix](http://www.blendwebmix.com), j’ai donné ma première _vrai_ conférence (je reviendrais sur le terme _vrai_ un peu plus tard dans l'article).
+Il y a quelques semaines lors du [BlendWebMix](http://www.blendwebmix.com), j’ai donné ma première _vraie_ conférence (je reviendrais sur le terme _vraie_ un peu plus tard dans l'article).
 
 Ça a été pour moi une expérience très enrichissante, et j'ai envie d'en parler ici. Si je le pouvais, j'irais même jusqu'à trouver une machine à remonter le temps pour raconter ça à mon autre moi d’il y a 5, 10 ou 15 ans. Il ne me croirait probablement pas, et pour cause ...
 
@@ -37,7 +37,7 @@ C'est ce qui m'a poussé à me tourner vers la programmation, dans une boite à 
 
 Et pourtant, tout introverti que je suis, me voilà animant une conférence lors d'un événement qui réunit quasiment 2000 personnes. Vous imaginez bien que cette décision ne s'est pas prise du jour au lendemain, sur un coup de tête. 
 
-Il y a une chose que j'aime particulièrement dans les métiers du web, c'est la **culture du partage**, une culture qui se retrouve dans de nombreux événements organisés régulièrement, avec cette objectif commun : progresser grace aux expériences de chacun. 
+Il y a une chose que j'aime particulièrement dans les métiers du web, c'est la **culture du partage**, une culture qui se retrouve dans de nombreux événements organisés régulièrement, avec cette objectif commun : progresser grâce aux expériences de chacun. 
 
 C'est via ce genre d'événements que j'ai trouvé mon taff actuel, et que j'ai rejoint en 2012 le bénévolat lors du WebEvent Lyon (devenu le fameux BlendWebMix en 2013).
 
@@ -64,7 +64,7 @@ A ce moment, j'ai en tête un sujet pour un “vrai” talk. Je décide de le cr
 
 Au début de l'année, je fais la découverte d'un mal dont beaucoup d'entre nous sont atteints : **le syndrome de l'imposteur**.
 
-Ce syndrome se caractérise par le fait de penser que "vu que je ne suis pas le meilleur dans mon domaine, quelle légitimité aurais je à parler de ce que je fais ?".
+Ce syndrome se caractérise par le fait de penser que "vu que je ne suis pas le meilleur dans mon domaine, quelle légitimité aurais-je à parler de ce que je fais ?".
 
 ![Man with no face](/assets/post_images/2015-12-10-blendwebmix-retour-sur-ma-premiere-conf/noone.gif)
 
@@ -76,9 +76,9 @@ Les articles sont  plutôt bien accueillis, certains font même réagir. Je déc
 
 ### --dry-run
 
-Une fois mon sujet travaillé, je draft quelques slides pour les présenter à mon équipe et recueillir des avis et des conseils (d'ailleurs, j'en profite pour les remercier au passage pour les feedbacks et le soutient). 
+Une fois mon sujet travaillé, je draft quelques slides pour les présenter à mon équipe et recueillir des avis et des conseils (d'ailleurs, j'en profite pour les remercier au passage pour les feedbacks et le soutien). 
 
-Leurs retours sont constructifs, et le sujet est considéré comme "Blendable". Par contre ils me conseillent d'utiliser avec plus de parcimonie les GIF animés, qui détournent un peu l'attention de l'auditoire ... c'est bien mal me connaitre !
+Leurs retours sont constructifs, et le sujet est considéré comme "Blendable". Par contre ils me conseillent d'utiliser avec plus de parcimonie les GIF animés, qui détournent un peu l'attention de l'auditoire ... c'est bien mal me connaître !
 
 ![meeting laught](/assets/post_images/2015-12-10-blendwebmix-retour-sur-ma-premiere-conf/lol.gif)
 
