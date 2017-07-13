@@ -2,18 +2,21 @@
 layout: post
 title:  "What you understand well, you enunciate clearly"
 date: 2015-07-08 18:00:00
-categories: processes
+category: process
 tags: documentation, teamwork, source control, desambiguation
 comments: true
-image: /assets/article_images/2015-07-08-well-understood/graphic_notetaking.jpg
-credit: Austin Kleon - https://www.flickr.com/photos/deathtogutenberg/3432296447
+og-image: /img/posts/2015-07-08-well-understood/graphic_notetaking.jpg
+credit: <a href="https://www.flickr.com/photos/deathtogutenberg/3432296447">Austin Kleon</a>
 ---
 
 Nicolas Boileau was a french poet from the 17th century. This is one of his most famous quote :
 
 > Ce qui se conçoit bien s'énonce clairement, et les mots pour le dire arrivent aisément.
 
+<!--more-->
 These alexandrines can be translated by "_Whatever we conceive well, we express clearly, and words then flow with ease_". This, of course, refers to the art of writing and speaking, but what Boileau could not predict, is that his words would also be relevant in computer sciences.
+
+![graphic notetaking](/img/posts/2015-07-08-well-understood/graphic_notetaking.jpg)
 
 One of my current focus at work, is to get my team to explain more the code they are writing, whether it is by writing documentation or pushing commits/pull-requests with detailed messages. Actually, we even use a custom made pull-request message template to explain what we did, how we did it, and why it had been done that way (and sometimes why it had been done at all). We also encourage conversations within code reviews, instead of just error fixing.
 

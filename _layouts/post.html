@@ -1,119 +1,78 @@
----
----
+
+<!-- Post Layout Start -->
+
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang }}">
+
+  {% if page.og-title %}
+    <meta property="og:title" content="{{ page.og-title }}" />
+  {% else %}
+    <meta property="og:title" content="'{{ page.title }}' - skwi.fr" />
+  {% endif %}
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url }}" />
+  {% if page.og-image %}
+    <meta property="og:image" content="{{site.baseurl}}/{{ page.og-image }}" />
+  {% endif %} 
+
   {% include head.html %}
-  <body itemscope itemtype="http://schema.org/Article">
-    {% include header.html %}
-    <main class="content" role="main">
-      <article class="post">
-        {% if page.image %}
-        <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.image %}{{ page.image }}{% endif %})">
-            Article Image
-          </div>
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
-              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
-              on
-              <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
-              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
-            </div>
-            <div style="text-align:center">
-              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
-            </div>
-          </div>
-        </div>
-        {% else %}
-        <div class="noarticleimage">
-          <div class="post-meta">
-            <h1 class="post-title">{{ page.title }}</h1>
-            <div class="cf post-meta-text">
-              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
-              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ page.author }}</h4>
-              on
-              <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-              <!-- , tagged on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}} -->
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        {% endif %}
-        <section class="post-content">
-          <div class="post-reading">
-            <span class="post-reading-time"></span> read
-          </div>
-          <a name="topofpage"></a>
-          {{content}}
-        </section>
-        <footer class="post-footer">
-          <section class="share">
-            {% for social in site.social %}
-              {% if social.share_url != null %}
-                <a class="icon-{{ social.icon }}" href="{{ social.share_url }}{{ social.share_title }}{{page.title | cgi_escape}}{{ social.share_link }}{{site.url}}{{page.id}}"
-                  onclick="window.open(this.href, '{{ social.icon }}-share', 'width=550,height=255');return false;">
-                <i class="fa fa-{{ social.icon }}"></i><span class="hidden">{{ social.icon }}</span>
-                </a>
-              {% endif %}
-            {% endfor %}
+
+  <body>
+
+    {% include navigation.html %}
+
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          {% include swipe-instructions.html %}
+
+          <h1><strong>{{ page.title }}</strong></h1>
+          <h4>
+            <strong>{{ page.date | date_to_string }}</strong>
+            <small>
+              . category:
+              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
+                {{ page.category }}
+              </a>.
+              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+              <br />
+              {% for tag in page.tags %}
+                <a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}.html">#{{ tag }}</a>
+              {% endfor %}
+            </small>
+          </h4>
+
+          <section class="text-justify">
+            {{ page.content | markdownify }}
           </section>
-          <section class="credit">
-            <label name="cover-credit" id="cover-credit"><strong>Cover image credit</strong> : {{ page.credit }}</label>
-          </section>
-        </footer>
-        <div class="bottom-teaser cf">
-          <div class="isLeft">
-            <h5 class="index-headline featured"><span>Written by</span></h5>
-            <section class="author">
-              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
-              <h4>{{ site.author }}</h4>
-              <p class="bio">{{author.bio}}</p>
-              <hr>
-              <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
-            </section>
+
+          {% include share.html %}
+
+          {% if jekyll.environment == "production" %}
+            {% include comments.html %}
+          {% endif %}
+
+
+          <hr />
+
+          {% if site.author_blurb %}
+          <div class="author row">
+            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              {{ site.author_blurb }}
+            </p>
           </div>
-          {{/post}}
-          <div class="isRight">
-            <h5 class="index-headline featured"><span>Supported by</span></h5>
-            <footer class="site-footer">
-              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
-              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
-              <div class="inner">
-                <section class="copyright">All content copyright <a href="{{@blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
-              </div>
-            </footer>
-          </div>
+          {% endif%}
         </div>
-      </article>
-      {% if page.comments %}
-      <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        var disqus_shortname = 'le-skwi';
-        var disqus_title = '{{ page.title }}';
-        var disqus_url = '{{ site.url }}{{ page.url }}';
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-      {% endif %}
-    </main>
-    <div class="bottom-closer">
-      <div class="background-closer-image" {%if site.cover %} style="background-image: url({{ site.cover }})"{% endif %}>
-        Image
       </div>
-      <div class="inner">
-        <h1 class="blog-title">{{ site.title }}</h1>
-        <h2 class="blog-description">{{ site.description }}</h2>
-        <a href="/" class="btn">Back to Overview</a>
-      </div>
-    </div>
-    {% include javascripts.html %}
+    </section>
+
+    {% include footer.html %}
+
+    {% include js.html %}
+
   </body>
 </html>
+
+<!-- Post Layout End -->
