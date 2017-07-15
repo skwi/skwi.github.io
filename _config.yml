@@ -166,7 +166,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Talks: 'talks'
-  Timeline: 'timeline'
+  # Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site

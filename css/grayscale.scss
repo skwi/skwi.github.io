@@ -159,7 +159,7 @@ a {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0;
     text-align: center;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -195,6 +195,48 @@ a {
             }
         }
     }
+}
+.about-wrapper {
+}
+.latest-post-wrapper {
+    background: #005f77;
+    a {
+        color: #000;
+        font-weight: bold;
+    }
+}
+.talks-wrapper {
+    background: url('/img/microphone.jpg');
+    background-size:cover;
+    .talk-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-bottom: 35px;
+        .talk {
+            width: 400px;
+            margin: auto;
+            .talk-title {
+                font-size: 15px;
+                margin-bottom: 10px;
+            } 
+            .talk-date {
+                color: rgba($font-color, 0.3);
+                font-size: 16px;
+                margin-bottom: 5px;
+            } 
+            .talk-desc {
+                font-size: 16px;
+            }
+        }
+    }
+}
+.timeline-wrapper {
+}
+.contact-wrapper {
+    // background: url('/img/mailbox.png');
+    // background-size:cover;
 }
 
 @-webkit-keyframes pulse {
@@ -275,6 +317,10 @@ a {
             margin-bottom: 20px;
             padding: 4px;
         }
+    }
+    #page-top & {
+        margin-top: 0;
+        padding-bottom: 125px;
     }
 }
 
