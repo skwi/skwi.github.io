@@ -2,16 +2,18 @@
 layout: post
 title:  "Talk to a duck"
 date: 2015-02-24 17:02:24
-categories: debugging 
+category: debugging 
 tags: debugging, talk, slides
 comments: true
-image: /talks/parlez-a-un-canard/pictures/rubber-duck-city.jpg
-credit: Trey Ratcliff - http://www.florentijnhofman.nl/dev/content/info/files/presentation_of_projects.pdf
+og-image: /talks/parlez-a-un-canard/pictures/rubber-duck-city.jpg
+credit: <a href="http://www.florentijnhofman.nl/dev/content/info/files/presentation_of_projects.pdf">Trey Ratcliff</a>
 ---
 Last october, I gave a lightning talk at [Blend Web Mix](http://www.blendwebmix.com/), a conference in Lyon, France. My talk was about Rubber duck debugging. I named it "Talk to a duck".
 This was a french speaking conference, but this is a quite interesting subject, so I'll try to summarize here what I said.
+<!--more-->
 
-[![Talk to a duck - Slides cover](/assets/article_images/2015-02-24-talk-to-a-duck/duck_cover.png)](/talks/parlez-a-un-canard/)
+[![Talk to a duck - Slides cover](/img/posts/2015-02-24-talk-to-a-duck/duck_cover.png)](/talks/parlez-a-un-canard/)
+
 
 > I started my speech with a small anecdote from my work as technical leader, about other developers coming to me with some logical problem, and finding the solution while explaining it out loud, while I didn't even say a word (Yes, this part of my job is very easy).
 

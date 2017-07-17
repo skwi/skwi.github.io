@@ -2,10 +2,10 @@
 layout: post
 title:  "Removing stress in production deployment"
 date: 2015-02-27 09:00:00
-categories: production 
+category: production 
 tags: stress, deployment, quality
 comments: true
-image: /assets/article_images/2015-02-27-stress-and-deployment/space-shuttle-discovery-on-launch-pad.jpg
+og-image: /img/posts/2015-02-27-stress-and-deployment/space-shuttle-discovery-on-launch-pad.jpg
 credit: Dennis Biela, Lightspeed Media, LLC, courtesy of NASA
 ---
 One particularity of the digital agencies like the one I work for is the opportunity to work on very different kind of project, with very different kind of business.
@@ -13,6 +13,9 @@ The one I'm going to talk about today is a mobile application we recently had to
 
 These are often very instructive projects but they also are sometimes very tricky.
 Those kind of client generally have good skills in project management fields, but they can be a real pain when it comes to the IT department.
+<!--more-->
+
+![shuttle launch](/img/posts/2015-02-27-stress-and-deployment/space-shuttle-discovery-on-launch-pad.jpg)
 
 Let's for instance walk through the deployment process of the foregoing application.
 

@@ -1,56 +1,187 @@
-# Build settings
-markdown: redcarpet
-highlighter: pygments
 
 # Site settings
+url: "https://skwi.github.io"
+force-https: True
+
+# Google tracking id
+google-tracking-id: "UA-961763-22"
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Cédric Spalvieri"
 title: "le_skwi"
-description: >
-   because development is more about humans than code
+description: "Development is more about humans than code"
+keywords: "cedric, spalvieri, skwi, blog"
+favicon: "/img/favicon.ico"
 
-email: cedric@skwi.fr
-logo: "/assets/images/skwi.jpg"
-cover: "/assets/images/macbook-coffee.jpg"
+################
+# Header layout #
+################
+black-favicon: "/img/favicon.ico"
+background-img: "../img/intro-bg.jpg"
 
-name: 'Cédric Spalvieri'
-author: 'Cédric Spalvieri'
-author_image: "/assets/images/author.png"
+##############################
+# Dynamic Text on the Header #
+##############################
 
-paginate:	5
+# dynamic-typing: True
+# shuffle: True # Shuffle the lines.
+# loop: True
+# loop-count: False # Set False for infinite loop, or set any number for finite loop.
+# type-speed: 10
+# start-delay: 200
+# delete-delay: 5000
+# lines: # You can add HTML Tags in the Text
+#   - text: "Knowledge is the only thing that grows when you share it"
+#   - text: "If you want your code to be easy to write, make it easy to read"
+#   - text: "Computer science is no more about computers than astronomy is about telescopes"
+#   - text: "Clean code always looks like it was written by someone who cares"
 
-url: "http://skwi.github.io"
-baseurl: ""
+dynamic-typing: True
+shuffle: False
+loop: True
+loop-count: 1
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Coding a better world, one coffe at a time"
+me-img: "https://github.com/skwi.png?size=500"
 
-analytics :
-  provider : google
-  google :
-      tracking_id : 'UA-961763-22'
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
 
-# social icons and sharing options
+################
+# Web app mode #
+################
+
+web-app-mode: False
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: False
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: True
+vkontakte-share: False
+
+# disqus-shortname: "panossakkos"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/spidertocat.png"
+    date: "September 2013 - Today"
+    description: "Saving the neighborhood!"
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "September 2007 - August 2013"
+    description: "Started coding"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "cedric@skwi.fr"
+
+################
+# Author Blurb #
+################
+
+author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb_image: "https://github.com/skwi.png?size=500"
+
+##################
+# Social Buttons #
+##################
+
 social:
-  - icon:	twitter
-    url:	https://twitter.com/le_skwi
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
+  # - title: "facebook"
+  #   url: "https://facebook.com/"
+  - title: "twitter"
+    url: "https://twitter.com/le_skwi"
+  - title: "github"
+    url: "https://github.com/skwi"
+  # - title: "bitcoin"
+  #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "rss"
+    url: "/feed.xml"
 
-  - icon:	facebook
-   # url:	https://facebook.com/???
-   # desc: Connect with me facebook
-    share_url: https://www.facebook.com/sharer.php
-    share_title: ?t=
-    share_link: "&amp;u="
+############
+# 404 page #
+############
 
-  - icon:	github
-    url:	https://github.com/skwi
-    desc:	Fork me on github
-    share_url:
-    share_title:
-    share_link:
+err-404-img: "/img/labtocat.png"
 
-#  - icon:	google-plus
-#    url:	https://google.com/???
-#    desc:	Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: skwi
+keybase-in-social: True
+keybase-in-footer: True
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Talks: 'talks'
+  # Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts", "vendor"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jemoji

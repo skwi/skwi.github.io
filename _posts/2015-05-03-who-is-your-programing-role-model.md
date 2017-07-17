@@ -2,14 +2,17 @@
 layout: post
 title:  "Who is your programing role model ?"
 date: 2015-05-03 14:00:00
-categories: 
+category: carreer
 tags: 
 comments: true
-image: /assets/article_images/2015-05-03-programing-role-model/stormtrooper.jpg
-credit: Kristina Alexanderson - https://www.flickr.com/photos/kalexanderson/5861331902
+og-image: /img/posts/2015-05-03-programing-role-model/stormtrooper.jpg
+credit: <a href="https://www.flickr.com/photos/kalexanderson/5861331902">Kristina Alexanderson</a>
 ---
 
 There are some developers in this world that will never have to look for a job. They have built a reputation big enough to have a whole community following them. You might already know some of these developers, like [@jeresig](http://twitter.com/jeresig), [@dhh](http://twitter.com), [@rasmus](http://twitter.com/rasmus) or [many others ...](http://mashable.com/2009/06/04/developers-tips-twitter/)
+<!--more-->
+
+![stromtrooper](/img/posts/2015-05-03-programing-role-model/stormtrooper.jpg)
 
 I think it's important that you know and follow at least some of them. Development is more than just code, and reading from _dev superstars_  is part of a programing culture that helps being a good developer. If you don't follow the "lead" developers in your domain, I suggest you start doing so.
 
