@@ -1,7 +1,7 @@
 
 # Site settings
-url: "https://skwi.github.io"
-force-https: True
+url: "http://skwi.fr"
+force-https: False
 
 # Google tracking id
 google-tracking-id: "UA-961763-22"
