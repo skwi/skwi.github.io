@@ -102,16 +102,22 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/novaway.jpg"
+    date: "May 2011 - Today"
+    description: "CTO @<a href=\"https://novaway.fr\">Novaway</a>, setting best practices and sharing knowledge"
+  - image: "/img/timeline/capgemini.jpg"
+    date: "February 2008 - May 2011"
+    description: "Developer in the Application Service division, on mobility and Cloud Computing subjects"
+  - image: "/img/timeline/cpe.jpg"
+    date: "September 2002 - August 2008"
+    description: "Graduated as an engineer in the Distributed Computing major"
+  - image: "/img/timeline/coding.png"
+    date: "1998"
+    description: "Started coding with QBasic"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "https://github.com/skwi.png?size=250"
 
 ###########
 # Contact #
@@ -123,7 +129,7 @@ email: "cedric@skwi.fr"
 # Author Blurb #
 ################
 
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "Skwi is the CTO of <a href=\"https://novaway.fr\">Nowaway</a>. He loves learning new stuff, and sharing what he knows. He also love dark and beer and ristretto coffee."
 author_blurb_image: "https://github.com/skwi.png?size=500"
 
 ##################
@@ -166,7 +172,7 @@ pages_list:
   About: 'about'
   Blog: 'latest-post'
   Talks: 'talks'
-  # Timeline: 'timeline'
+  Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
