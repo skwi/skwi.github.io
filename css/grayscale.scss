@@ -78,13 +78,7 @@ a {
     }
 }
 
-ul {
-    padding: 0;
-    li {
-        text-align: left;
-        margin-bottom: 10px;
-    }
-}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($font-color, 0.3);
@@ -350,6 +344,14 @@ ul {
             }
         }
 
+        ul {
+            padding: 0;
+            li {
+                text-align: left;
+                margin-bottom: 10px;
+            }
+        }
+        
         div.author {
             img {
                 border: 0px;
