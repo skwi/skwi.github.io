@@ -5,7 +5,7 @@ date: 2015-07-08 18:00:00
 category: process
 tags: documentation, teamwork, source control, desambiguation
 comments: true
-og-image: /img/posts/2015-07-08-well-understood/graphic_notetaking.jpg
+banner-image: /img/posts/2015-07-08-well-understood/graphic_notetaking.jpg
 credit: <a href="https://www.flickr.com/photos/deathtogutenberg/3432296447">Austin Kleon</a>
 ---
 

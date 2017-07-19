@@ -13,6 +13,8 @@
   <meta property="og:url" content="{{ page.url }}" />
   {% if page.og-image %}
     <meta property="og:image" content="{{site.baseurl}}/{{ page.og-image }}" />
+  {% else if page.banner-image %} 
+    <meta property="og:image" content="{{site.baseurl}}/{{ page.banner-image }}" />
   {% endif %} 
 
   {% include head.html %}
@@ -25,23 +27,26 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
 
-          {% include swipe-instructions.html %}
-
-          <h1><strong>{{ page.title }}</strong></h1>
-          <h4>
-            <strong>{{ page.date | date_to_string }}</strong>
-            <small>
-              . category:
-              <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
-                {{ page.category }}
-              </a>.
-              <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
-              <br />
-              {% for tag in page.tags %}
-                <a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}.html">#{{ tag }}</a>
-              {% endfor %}
-            </small>
-          </h4>
+          <div class="post-header" style="background-image:url({{ page.banner-image }});">
+            <div class="post-header-overlay"></div>
+            <h1><strong>{{ page.title }}</strong></h1>
+            <h4>
+              <strong>{{ page.date | date_to_string }}</strong>
+              <small>
+                . category:
+                <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
+                  {{ page.category }}
+                </a>.
+                {% if site.disqus-shortname %}
+                <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
+                {% endif %}
+                <br />
+                {% for tag in page.tags %}
+                  <a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}.html">#{{ tag }}</a>
+                {% endfor %}
+              </small>
+            </h4>
+          </div>
 
           <section class="text-justify">
             {{ page.content | markdownify }}
@@ -53,13 +58,14 @@
             {% include comments.html %}
           {% endif %}
 
-
           <hr />
 
           {% if site.author_blurb %}
-          <div class="author row">
-            <img class="col-xs-4 col-sm-3 col-md-2" src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
-            <p class="col-xs-8 col-sm-9 col-md-10">
+          <div class="author row text-left">
+            <div class="col-xs-2 col-sm-2 col-md-2">
+              <img src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
+            </div>
+            <p class="col-xs-10 col-sm-10 col-md-10">
               {{ site.author_blurb }}
             </p>
           </div>

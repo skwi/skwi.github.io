@@ -103,17 +103,17 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/novaway.jpg"
-    date: "May 2011 - Today"
-    description: "CTO @<a href=\"https://novaway.fr\">Novaway</a>, setting best practices and sharing knowledge"
+    date: "2011 - Today"
+    description: "CTO @<a class=\"novaway\" href=\"https://novaway.fr\">Novaway</a>, setting best practices and sharing knowledge"
   - image: "/img/timeline/capgemini.jpg"
-    date: "February 2008 - May 2011"
+    date: "2008 - 2011"
     description: "Developer in the Application Service division, on mobility and Cloud Computing subjects"
   - image: "/img/timeline/cpe.jpg"
-    date: "September 2002 - August 2008"
+    date: "2002 - 2008"
     description: "Graduated as an engineer in the Distributed Computing major"
   - image: "/img/timeline/coding.png"
     date: "1998"
-    description: "Started coding with QBasic"
+    description: "Started coding with QBasic, mostly making shapes trying to catch one another"
 
 # First image of the Timeline
 
@@ -129,7 +129,9 @@ email: "cedric@skwi.fr"
 # Author Blurb #
 ################
 
-author_blurb: "Skwi is the CTO of <a href=\"https://novaway.fr\">Nowaway</a>. He loves learning new stuff, and sharing what he knows. He also love dark and beer and ristretto coffee."
+author_blurb: "Skwi is the CTO of <a class=\"novaway\" href=\"https://novaway.fr\">Novaway</a> and a developer fulled by dark and beer and ristretto coffee.<br/>
+Fascinated by science since he's a kid, he loves learning new stuff every day.<br/>
+Because it's one of the best way to learn, he also enjoy sharing knowledge."
 author_blurb_image: "https://github.com/skwi.png?size=500"
 
 ##################

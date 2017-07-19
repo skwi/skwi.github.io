@@ -6,13 +6,11 @@ category: psychology
 tags: hacking, psychology
 comments: true
 og-title: 
-og-image: /img/posts/2015-10-03-mr-robot-hacking-psychology/elliot.jpg
+banner-image: /img/posts/2015-10-03-mr-robot-hacking-psychology/elliot.jpg
 credit: USA Network
 ---
 
 Mr Robot was one of the most exciting TV show this summer. Its plot was well structured, the work on images and music was executed perfectly, and, as many programmers noted, the tech was (for once) pretty accurate.
-
-![Mr. Robot](/img/posts/2015-10-03-mr-robot-hacking-psychology/elliot.jpg)
 
 As a matter of fact, it was so accurate that most of the hacking process in the show is not technical at all, but psychological. <!--more-->Elliot, the main character, is quite a master of [social engineering](http://searchsecurity.techtarget.com/definition/social-engineering).
 

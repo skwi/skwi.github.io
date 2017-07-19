@@ -15,7 +15,9 @@
             </a>
           .</small>
           <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
+          {% if site.disqus-shortname %}
           <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+          {% endif %}
         </h4>
 
         <section class="text-justify">

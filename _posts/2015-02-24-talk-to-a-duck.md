@@ -5,7 +5,7 @@ date: 2015-02-24 17:02:24
 category: debugging 
 tags: debugging, talk, slides
 comments: true
-og-image: /talks/parlez-a-un-canard/pictures/rubber-duck-city.jpg
+banner-image: /talks/parlez-a-un-canard/pictures/rubber-duck-city.jpg
 credit: <a href="http://www.florentijnhofman.nl/dev/content/info/files/presentation_of_projects.pdf">Trey Ratcliff</a>
 ---
 Last october, I gave a lightning talk at [Blend Web Mix](http://www.blendwebmix.com/), a conference in Lyon, France. My talk was about Rubber duck debugging. I named it "Talk to a duck".

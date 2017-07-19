@@ -5,15 +5,13 @@ date: 2015-04-22 14:00:00
 category: self-enhancement
 tags: pastries, comparison
 comments: true
-og-image: /img/posts/2015-04-22-cooking-pastries/cake.jpg
+banner-image: /img/posts/2015-04-22-cooking-pastries/cake.jpg
 credit: TMAB2003, Lavender White Chocolate Cheesecake
 ---
 As far as I can remember, I've always loved cooking. It started as a kid, watching my mother and grandmother, and I now see almost every day of my life as a way too improve my cooking.
 
 I've always been more of a "main dish" kind of cook, but I recently started to make pastries, and I truly think it can help me become a better programmer.
 <!--more-->
-
-![cake](/img/posts/2015-04-22-cooking-pastries/cake.jpg)
 
 I have never seen cooking as a chore but more as an act of craftsmanship. That's why I like it, and I basically love coding for the same reason. I guess it's not so surprising, because pastry and software development actually have, from my point of view, a lot in common.
 

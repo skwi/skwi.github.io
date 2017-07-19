@@ -78,6 +78,13 @@ a {
     }
 }
 
+ul {
+    padding: 0;
+    li {
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($font-color, 0.3);
@@ -178,6 +185,7 @@ a {
         }
         .intro-text {
             font-size: 18px;
+            font-family: "Monaco", "Consolas", "Andale Mono", "Courier New";
             @if $navbar-text-shadow {
                 text-shadow: 1px 0 1px #000;
             }
@@ -194,6 +202,9 @@ a {
                 font-size: 26px;
             }
         }
+    }
+    .img-me {
+        margin-bottom: 40px;
     }
 }
 .about-wrapper {
@@ -312,10 +323,39 @@ a {
 
     /* Added in { Personal } */
     &#post {
-        div.author img {
-            border: 0px;
-            margin-bottom: 20px;
-            padding: 4px;
+        
+        margin-top:0px;
+        padding-top:0px;
+
+        .post-header {
+            position:relative;
+            background-size:cover;
+            padding-top:250px;
+            padding-bottom:50px;
+            margin-bottom:20px;
+            margin-top:125px;
+            z-index:0;
+            .post-header-overlay {
+                position:absolute;
+                background-color: rgba(0,0,0,0.7);
+                top:0;
+                left:0;
+                width: 100%;
+                height: 100%;
+                z-index:1;
+            }
+            h1, h4 {
+                position:relative;
+                z-index:2;
+            }
+        }
+
+        div.author {
+            img {
+                border: 0px;
+                margin-bottom: 20px;
+                // padding: 4px;
+            }
         }
     }
     #page-top & {
@@ -490,4 +530,16 @@ body {
 
 .fourofour {
   border: 1px solid $primary-color !important;
+}
+
+.novaway {
+    color: #ec681b;
+    font-weight: bold;
+    &:hover {
+        color: darken( #ec681b, 10% );
+    }
+}
+
+.rrssb-buttons {
+    margin-top:20px;
 }
