@@ -5,7 +5,8 @@ date:   2015-02-19 18:00:00
 category: me
 tags: introduction, writing, sharing
 comments: true
-banner-image: /img/posts/2015-02-19-yet-another-developer-blog/DEC_VT100_terminal.jpg
+author: "Cédric Spalvieri"
+header-img: /img/posts/2015-02-19-yet-another-developer-blog/DEC_VT100_terminal.jpg
 credit: <a href="https://www.flickr.com/photos/54568729@N00/9636183501">Jason Scott</a>
 ---
 My name is Cedric Spalvieri, I'm better know on the internet as [le_skwi](https://twitter.com/le_skwi). I'm french, in my early 30's, and I make a living mostly writing code for a web company called <a class="novaway" href="https://novaway.fr">Novaway</a>. And I have decided to blog about it.

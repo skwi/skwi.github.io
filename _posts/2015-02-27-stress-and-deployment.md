@@ -5,7 +5,8 @@ date: 2015-02-27 09:00:00
 category: production 
 tags: stress, deployment, quality
 comments: true
-banner-image: /img/posts/2015-02-27-stress-and-deployment/space-shuttle-discovery-on-launch-pad.jpg
+author: "Cédric Spalvieri"
+header-img: /img/posts/2015-02-27-stress-and-deployment/space-shuttle-discovery-on-launch-pad.jpg
 credit: Dennis Biela, Lightspeed Media, LLC, courtesy of NASA
 ---
 One particularity of the digital agencies like the one I work for is the opportunity to work on very different kind of project, with very different kind of business.

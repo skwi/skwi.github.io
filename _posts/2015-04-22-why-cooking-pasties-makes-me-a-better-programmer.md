@@ -5,7 +5,8 @@ date: 2015-04-22 14:00:00
 category: self-enhancement
 tags: pastries, comparison
 comments: true
-banner-image: /img/posts/2015-04-22-cooking-pastries/cake.jpg
+author: "Cédric Spalvieri"
+header-img: /img/posts/2015-04-22-cooking-pastries/cake.jpg
 credit: TMAB2003, Lavender White Chocolate Cheesecake
 ---
 As far as I can remember, I've always loved cooking. It started as a kid, watching my mother and grandmother, and I now see almost every day of my life as a way too improve my cooking.

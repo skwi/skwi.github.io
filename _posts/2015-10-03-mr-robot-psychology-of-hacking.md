@@ -1,13 +1,24 @@
 ---
 layout: post
 title:  "Mr. Robot and the psychology of hacking"
+# subtitle:   ""
 date:   2015-10-03 18:00:00
 category: psychology
 tags: hacking, psychology
 comments: true
 og-title: 
-banner-image: /img/posts/2015-10-03-mr-robot-hacking-psychology/elliot.jpg
+author: "Cédric Spalvieri"
+header-img: /img/posts/2015-10-03-mr-robot-hacking-psychology/elliot.jpg
 credit: USA Network
+---
+
+---
+layout:     post
+title:      "Dinosaurs are extinct today"
+subtitle:   "because they lacked opposable thumbs and the brainpower to build a space program."
+date:       2014-06-10 12:00:00
+author:     "Start Bootstrap"
+header-img: "img/post-bg-01.jpg"
 ---
 
 Mr Robot was one of the most exciting TV show this summer. Its plot was well structured, the work on images and music was executed perfectly, and, as many programmers noted, the tech was (for once) pretty accurate.

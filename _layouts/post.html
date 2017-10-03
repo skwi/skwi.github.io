@@ -1,84 +1,50 @@
+---
+layout: default
+---
 
-<!-- Post Layout Start -->
-
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
-  {% if page.og-title %}
-    <meta property="og:title" content="{{ page.og-title }}" />
-  {% else %}
-    <meta property="og:title" content="'{{ page.title }}' - skwi.fr" />
-  {% endif %}
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="{{ page.url }}" />
-  {% if page.og-image %}
-    <meta property="og:image" content="{{site.baseurl}}/{{ page.og-image }}" />
-  {% else if page.banner-image %} 
-    <meta property="og:image" content="{{site.baseurl}}/{{ page.banner-image }}" />
-  {% endif %} 
-
-  {% include head.html %}
-
-  <body>
-
-    {% include navigation.html %}
-
-    <section id="post" class="container content-section text-center">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-
-          <div class="post-header" style="background-image:url({{ page.banner-image }});">
-            <div class="post-header-overlay"></div>
-            <h1><strong>{{ page.title }}</strong></h1>
-            <h4>
-              <strong>{{ page.date | date_to_string }}</strong>
-              <small>
-                . category:
-                <a class="category" href="{{site.baseurl}}/categories/{{page.category | downcase}}.html">
-                  {{ page.category }}
-                </a>.
-                {% if site.disqus-shortname %}
-                <a href="{{site.baseurl}}{{page.url }}#disqus_thread">Comments</a>
-                {% endif %}
-                <br />
-                {% for tag in page.tags %}
-                  <a class="tag" href="{{site.baseurl}}/tags/{{tag | downcase}}.html">#{{ tag }}</a>
-                {% endfor %}
-              </small>
-            </h4>
-          </div>
-
-          <section class="text-justify">
-            {{ page.content | markdownify }}
-          </section>
-
-          {% include share.html %}
-
-          {% if jekyll.environment == "production" %}
-            {% include comments.html %}
-          {% endif %}
-
-          <hr />
-
-          {% if site.author_blurb %}
-          <div class="author row text-left">
-            <div class="col-xs-2 col-sm-2 col-md-2">
-              <img src="{{site.baseurl}}{{site.author_blurb_image}}" alt="Me" />
+<!-- Post Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>{{ page.title }}</h1>
+                    {% if page.subtitle %}
+                    <h2 class="subheading">{{ page.subtitle }}</h2>
+                    {% endif %}
+                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                </div>
             </div>
-            <p class="col-xs-10 col-sm-10 col-md-10">
-              {{ site.author_blurb }}
-            </p>
-          </div>
-          {% endif%}
         </div>
-      </div>
-    </section>
+    </div>
+</header>
 
-    {% include footer.html %}
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-    {% include js.html %}
+				{{ content }}
 
-  </body>
-</html>
+                <hr>
 
-<!-- Post Layout End -->
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>

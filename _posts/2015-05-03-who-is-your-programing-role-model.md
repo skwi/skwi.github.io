@@ -5,7 +5,8 @@ date: 2015-05-03 14:00:00
 category: carreer
 tags: 
 comments: true
-banner-image: /img/posts/2015-05-03-programing-role-model/stormtrooper.jpg
+author: "Cédric Spalvieri"
+header-img: /img/posts/2015-05-03-programing-role-model/stormtrooper.jpg
 credit: <a href="https://www.flickr.com/photos/kalexanderson/5861331902">Kristina Alexanderson</a>
 ---
 

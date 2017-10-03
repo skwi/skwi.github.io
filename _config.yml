@@ -1,195 +1,24 @@
-
 # Site settings
-url: "http://skwi.fr"
-force-https: False
-
-# Google tracking id
-google-tracking-id: "UA-961763-22"
-
-#############
-# HTML Head #
-#############
-
-lang: "en"
-author: "Cédric Spalvieri"
-title: "le_skwi"
+title: le skwi
+header-img: /img/home-bg.jpg
+email: cedric@skwi.fr
+copyright_name: Cédric Spalvieri
 description: "Development is more about humans than code"
-keywords: "cedric, spalvieri, skwi, blog"
-favicon: "/img/favicon.ico"
+baseurl: ""
+url: "https://skwi.fr"
+twitter_username: le_skwi
+github_username:  skwi
+email_username:  cedric@skwi.fr
 
-################
-# Header layout #
-################
-black-favicon: "/img/favicon.ico"
-background-img: "../img/intro-bg.jpg"
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google-tracking-id: "UA-961763-22"
 
-##############################
-# Dynamic Text on the Header #
-##############################
-
-# dynamic-typing: True
-# shuffle: True # Shuffle the lines.
-# loop: True
-# loop-count: False # Set False for infinite loop, or set any number for finite loop.
-# type-speed: 10
-# start-delay: 200
-# delete-delay: 5000
-# lines: # You can add HTML Tags in the Text
-#   - text: "Knowledge is the only thing that grows when you share it"
-#   - text: "If you want your code to be easy to write, make it easy to read"
-#   - text: "Computer science is no more about computers than astronomy is about telescopes"
-#   - text: "Clean code always looks like it was written by someone who cares"
-
-dynamic-typing: True
-shuffle: False
-loop: True
-loop-count: 1
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "Coding a better world, one coffee at a time"
-me-img: "https://github.com/skwi.png?size=500"
-
-##############################
-# Color the browser elements #
-##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
-
-################
-# Web app mode #
-################
-
-web-app-mode: False
-
-# Icons for Web App mode
-
-icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
-icon-192p: "/img/web-app/icon-192p.png"
-
-########
-# Blog #
-########
-
-enable-gesture-navigation: False
-
-post-preview-words: 96
-
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
 paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-google-plus-share: False
-tumblr-share: False
-pinterest-share: False
-pocket-share: True
-vkontakte-share: False
-
-# disqus-shortname: "panossakkos"
-
-syntax-highlight: True
-
-############
-# Timeline #
-############
-
-events:
-  - image: "/img/timeline/novaway.jpg"
-    date: "2011 - Today"
-    description: "CTO @<a class=\"novaway\" href=\"https://novaway.fr\">Novaway</a>, setting best practices and sharing knowledge"
-  - image: "/img/timeline/capgemini.jpg"
-    date: "2008 - 2011"
-    description: "Developer in the Application Service division, on mobility and Cloud Computing subjects"
-  - image: "/img/timeline/cpe.jpg"
-    date: "2002 - 2008"
-    description: "Graduated as an engineer in the Distributed Computing major"
-  - image: "/img/timeline/coding.png"
-    date: "1998"
-    description: "Started coding with QBasic, mostly making shapes trying to catch one another"
-
-# First image of the Timeline
-
-timeline-img: "https://github.com/skwi.png?size=250"
-
-###########
-# Contact #
-###########
-
-email: "cedric@skwi.fr"
-
-################
-# Author Blurb #
-################
-
-author_blurb: "Skwi is the CTO of <a class=\"novaway\" href=\"https://novaway.fr\">Novaway</a> and a developer fulled by dark and beer and ristretto coffee.<br/>
-Fascinated by science since he's a kid, he loves learning new stuff every day.<br/>
-Because it's one of the best way to learn, he also enjoy sharing knowledge."
-author_blurb_image: "https://github.com/skwi.png?size=500"
-
-##################
-# Social Buttons #
-##################
-
-social:
-  # - title: "facebook"
-  #   url: "https://facebook.com/"
-  - title: "twitter"
-    url: "https://twitter.com/le_skwi"
-  - title: "github"
-    url: "https://github.com/skwi"
-  # - title: "bitcoin"
-  #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
-  - title: "rss"
-    url: "/feed.xml"
-
-############
-# 404 page #
-############
-
-err-404-img: "/img/labtocat.png"
-
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: skwi
-keybase-in-social: True
-keybase-in-footer: True
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Sections shown in the index page
-
-pages_list:
-  About: 'about'
-  Blog: 'latest-post'
-  Talks: 'talks'
-  Timeline: 'timeline'
-  Contact: 'contact'
-
-# Exclusion list from the generated _site
-
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts", "vendor"]
-
-# Pagination path
-
-paginate_path: "blog/page:num/"
-
-# Enable minification SASS
-
-sass:
-  style: compressed
-
-plugins:
-  - jekyll-paginate
-  - jemoji
+gems: [jekyll-paginate, jekyll-feed]

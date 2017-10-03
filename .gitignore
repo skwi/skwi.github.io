@@ -1,5 +1,3 @@
-### Sass template
-.sass-cache
-### Jekyll
 _site
-vendor
+node_modules
+Gemfile.lock
