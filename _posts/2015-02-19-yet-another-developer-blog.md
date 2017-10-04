@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Yet another developer blog"
+subtitle:   "This is me, opening a new blog"
 date:   2015-02-19 18:00:00
 category: me
 tags: introduction, writing, sharing

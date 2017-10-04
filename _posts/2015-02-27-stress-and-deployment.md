@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Removing stress in production deployment"
+subtitle:   "Deployment as a stress factor should not be taken lightly."
 date: 2015-02-27 09:00:00
 category: production 
 tags: stress, deployment, quality

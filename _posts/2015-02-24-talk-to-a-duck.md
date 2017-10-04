@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Talk to a duck"
+subtitle:   A lightning talk I gave last october.
 date: 2015-02-24 17:02:24
 category: debugging 
 tags: debugging, talk, slides

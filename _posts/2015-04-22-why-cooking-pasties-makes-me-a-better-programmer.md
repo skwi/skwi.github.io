@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Why cooking pastries makes me a better programmer"
+subtitle:   "I've always loved cooking, and it can help me become a better programmer."
 date: 2015-04-22 14:00:00
 category: self-enhancement
 tags: pastries, comparison

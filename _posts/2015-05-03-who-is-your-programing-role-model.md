@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Who is your programing role model ?"
+subtitle:   "There are some developers in this world that will never have to look for a job. Chances are you are not one of them ..."
 date: 2015-05-03 14:00:00
 category: carreer
 tags: 

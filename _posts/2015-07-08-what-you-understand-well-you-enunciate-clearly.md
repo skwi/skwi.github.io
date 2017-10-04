@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "What you understand well, you enunciate clearly"
+subtitle:  Or like we say in France, "Ce qui se conçoit bien s'énonce clairement, et les mots pour le dire arrivent aisément."
 date: 2015-07-08 18:00:00
 category: process
 tags: documentation, teamwork, source control, desambiguation
