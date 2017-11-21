@@ -1,18 +1,17 @@
 ---
 layout: page
-title: "About"
+title: "A propos"
 description: "This is what I do."
 header-img: "/img/openspace.jpg"
 ---
-Hi! My name is Cedric Spalvieri.
+Je m'appelle Cédric Spalvieri, et pour faire simple, je suis un développeur qui transforme les cafés serrés et les bières brunes en code.
 
-I am a developer fulled by dark and beer and ristretto coffee.<br/>
+J'habite dans la magifique ville de Lyon avec une femme formidable et deux ~~crapu...~~ petites filles adorables.
 
-I live in the beautifull city of Lyon (France 🇫🇷), with a wonderful wife and two amazing daughters.  
-As far as I remember, I've always loved tweaking computer related stuff 🤓 and learn new things.
+Aussi loin que je me souvienne, j'ai toujours adorer bidouiller tout ce qui touche à l'informatique et apprendre de nouvelles choses. 🤓
 
-This natural curiosity toward computer behavior led me to coding 👨‍💻, and I've done it in a professional context for more than ten years now. 
-These years spent coding in teams of various shapes made me realise than more thant the code itself, its quality lies in the people who write it. 
+Cette curiosité naturelle envers le fonctionnement logiciel m'a contuit de façon évidente au développement 👨‍💻, que je fais de façon professionnelle depuis maintenant plus de 10 ans.
+Ces années à coder dans des équipes aux tailles et aux formes différentes m'ont fait réaliser que plus que les principaux facteurs de la qualité d'un code résisent dans les personnes qui l'écrivent.
 
-I'm now CTO at <a class="novaway" href="https://novaway.fr">Novaway</a>, where I try to make the most of my interest for behavioral psychology to enhance processes and practices, keeping the empowerment of the people I work with as a priority.
+Je suis aujourd'hui CTO chez <a class="novaway" href="https://novaway.fr">Novaway</a>, où j'essaye de tirer le meilleur parti de mon intérêt pour la psychologie comportementale. Ma priorité, aider les gens avec lesquels je travail à tirer le meilleur d'eux même <small class="text-muted">©phrases-bateau.com</small>.
 

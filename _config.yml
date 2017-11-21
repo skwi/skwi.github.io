@@ -3,7 +3,7 @@ title: le skwi
 header-img: /img/home-bg.jpg
 email: cedric@skwi.fr
 copyright_name: Cédric Spalvieri
-description: "Development is more about humans than code"
+description: "Le blog d’un mec qui veut coder un monde meilleur, café après café"
 baseurl: ""
 url: "http://skwi.fr"
 twitter_username: le_skwi
@@ -17,4 +17,4 @@ permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-gems: [jekyll-paginate, jekyll-feed]
+plugin: [jekyll-paginate, jekyll-feed]
