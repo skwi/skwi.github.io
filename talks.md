@@ -15,9 +15,3 @@ Parmis les conférences que j'ai donnée, il n'y en a pour le moment qu'une seul
 @ BlendWebMix - Oct. 2015  
 Présentation du concept d'Egoless Programming introduit par Jerry Weinberg, avec un focus sur les 10 commandments qu'il propose.
 <a href="/talks/you-are-not-your-code/index.html">Slides</a>    
-
-
-[//]: <> (### 📅 Upcoming talks)
-
-[//]: <> ([date](lien))
-[//]: <> (description)
