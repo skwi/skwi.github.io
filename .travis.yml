@@ -3,6 +3,8 @@ env:
     secure: eOFZFo5W4wva/ZDI5j0HaIzXeSGQEuq7LILggX20NjZnNJFKt6iP8yj/NuhEutKrmwX42t5O4misilcKyyUmo/xheyiTMTTu8Qkx7A2HYxYOUmgvK0/vk1yyvUeW1iJYdLsUARACl5f8wjXafY1o0UCFjLlv078pmZsCmi2wYmQ=
 
 language: node_js
+node_js:
+  - "8"
 
 branches:
   only: master
