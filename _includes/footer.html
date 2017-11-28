@@ -62,40 +62,43 @@
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
-{% if page.issue_number %}
+
+{% assign pagefile = page.path|replace:'_posts/','') %}
+{% assign issue_number = site.data.commentrefs[pagefile] %}
+{% if issue_number %}
 <script type="text/javascript">
     
-    const issueLink = "https://github.com/skwi/skwi.github.io/issues/{{page.issue_number}}";
-    const apiLink = "https://api.github.com/repos/skwi/skwi.github.io/issues/{{page.issue_number}}/comments";
+    const issueLink = "https://github.com/skwi/skwi.github.io/issues/{{issue_number}}";
+    const apiLink = "https://api.github.com/repos/skwi/skwi.github.io/issues/{{issue_number}}/comments";
         
-    fetch()
+    fetch(apiLink, {
+        method: 'get',
+        headers: {Accept: "application/vnd.github.full+json"}
+    })
+    .then(response => response.json())
+    .then(comments => {
+        const $commentBlock = document.getElementById('comments');
+        const addCommentHTML = `<hr><a id="add-comment" data-toggle="tooltip" href="${issueLink}">Ajouter un commentaire via Github <i class="fa fa-github"></i></a><hr>`;
+        let commentHTML = '<h2>Commentaires</h2>';
+        if(comments.length === 0) {
+            $commentBlock.innerHTML = commentHTML + addCommentHTML;
+            return;
+        }
+        for(i in comments) {
+            console.log(comments[i]);
+            commentHTML += `
+            <div class="comment">
+                <div class="comment-author"><img alt="avatar_${comments[i].user.login}" src="${comments[i].user.avatar_url}&size=50" />${comments[i].user.login}</div> 
+                <div class="comment-message">${comments[i].body_html}</div>
+            </div>
+            `;
+        }
+        commentHTML += addCommentHTML;
+        $commentBlock.innerHTML = commentHTML;
+    })
+    .catch(error => {
 
-        $scope.dateTitle = function(date){
-            return $filter("date")(date, "MMMM dd, yyyy '('hh:mm a 'GMT'Z')'")
-        };
-        
-        function init(){
-            $http
-            .get(apiLink, {headers: {Accept: "application/vnd.github.full+json"}})
-            .then(function(res){
-                return $filter("orderBy")(res.data, "created_at");
-            })
-            .then(function(comments){
-                $scope.isLoading = false;
-                $scope.comments = comments;
-            });
-        };
-        
-        init();
-    };
-    
-    ng
-    .module("blog-comments", [])
-    .controller("CommentsController", ["$scope", "$http", "$filter", CommentsController])
-    .filter('rawHtml', ['$sce', function($sce){
-        return function(val) {
-            return $sce.trustAsHtml(val);
-        };
-    }]);
+    })
+
 </script>
 {% endif %}

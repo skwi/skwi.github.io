@@ -401,3 +401,37 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+#comments h2 {
+  margin-bottom: 20px;
+}
+.comment {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+.comment-author {
+  font-weight: bold;
+}
+.comment-author img {
+  margin-right: 10px;
+}
+#add-comment {
+  float: right;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: white;  
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0 30px;
+}
+#add-comment:hover {
+  background-color: #0085a1;  
+  color: white;
+  text-decoration: none;
+}
+#comments hr {
+  clear: both;
+}
