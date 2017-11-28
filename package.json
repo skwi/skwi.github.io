@@ -15,5 +15,12 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
+    },
+    "dependencies": {
+        "front-matter": "^2.3.0",
+        "github": "^12.0.7",
+        "js-yaml": "^3.10.0",
+        "node-fs": "^0.1.7",
+        "node-path": "0.0.3"
     }
 }

@@ -62,3 +62,40 @@
 <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/clean-blog.min.js " | prepend: site.baseurl }}"></script>
+{% if page.issue_number %}
+<script type="text/javascript">
+    
+    const issueLink = "https://github.com/skwi/skwi.github.io/issues/{{page.issue_number}}";
+    const apiLink = "https://api.github.com/repos/skwi/skwi.github.io/issues/{{page.issue_number}}/comments";
+        
+    fetch()
+
+        $scope.dateTitle = function(date){
+            return $filter("date")(date, "MMMM dd, yyyy '('hh:mm a 'GMT'Z')'")
+        };
+        
+        function init(){
+            $http
+            .get(apiLink, {headers: {Accept: "application/vnd.github.full+json"}})
+            .then(function(res){
+                return $filter("orderBy")(res.data, "created_at");
+            })
+            .then(function(comments){
+                $scope.isLoading = false;
+                $scope.comments = comments;
+            });
+        };
+        
+        init();
+    };
+    
+    ng
+    .module("blog-comments", [])
+    .controller("CommentsController", ["$scope", "$http", "$filter", CommentsController])
+    .filter('rawHtml', ['$sce', function($sce){
+        return function(val) {
+            return $sce.trustAsHtml(val);
+        };
+    }]);
+</script>
+{% endif %}
