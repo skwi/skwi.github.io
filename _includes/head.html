@@ -7,7 +7,17 @@
 
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% assign canonical = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url  %}
+
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    {% if page.layout == 'post' %}
+        <meta property="og:type" content="article" />
+        <meta property="og:article:author" content="{{ site.copyright_name }}" />
+        <meta property="og:url" content="{{ canonical }}" />
+        <meta property="og:image" content="{{ site.baseurl| prepend: site.url }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" />
+    {% endif %}
+
+    <link rel="canonical" href="{{ canonical }}">
 
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/clean-blog.css" | prepend: site.baseurl }}">
