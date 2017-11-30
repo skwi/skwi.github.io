@@ -10,8 +10,7 @@ header-img: /img/posts/2017-11-30-cinquieme-principe-agile/flexible.jpg
 credit: <a href="https://www.flickr.com/photos/iliketotakepictures/5480553207/">sharon g - "melinda2"</a>
 ---
 
-Si vous développez dans un cadre professionnel, il y a de fortes chances que vous ayez déjà rencontré le fameux manifeste agile, souvent présenté de la 
-façon suivante :
+Si vous développez dans un cadre professionnel, il y a de fortes chances que vous ayez déjà rencontré le fameux manifeste agile et ses 4 principes.
 
 > - Individuals and interactions over processes and tools  
 - Working software over comprehensive documentation  
@@ -21,6 +20,8 @@ façon suivante :
 
 Bien trop souvent j'ai vu ces principes traduits de la façon suivante :
 > Au diable la doc/le planning/[insérer un truc contraignant], nous on fait de l’agile.
+
+<img alt="agile fail" src="/img/posts/2017-11-30-cinquieme-principe-agile/fail.gif" class="center"/>
 
 Je caricature un peu, mais on voit aujourd'hui, sous couvert d'agilité, des comportements assez symptomatiques d'un oubli cette petite ligne, écrite juste en dessous des 4 affirmations dans le manifeste :
 
