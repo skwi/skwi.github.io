@@ -41,8 +41,8 @@ fs.readdirSync(postDirectory, 'utf8').forEach(postFile => {
     let issueData = {
         owner: 'skwi',
         repo: 'skwi.github.io',
-        title: `Comments for post "${postInfo.title}" (${postFile})`,
-        body: `Auto generated comment issue for post "${postInfo.title}" (${postFile})`
+        title: `Commentaires pour "${postInfo.title}"`,
+        body: `Ecrivez ci dessous vos commentaires pour l'article "${postInfo.title}", ils seront automatiquement affichés sur le blog.`
     };
 
     github.authenticate({
