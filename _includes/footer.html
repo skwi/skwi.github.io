@@ -53,7 +53,12 @@
                     </li>
                     {% endif %}
                 </ul>
-                <p class="copyright text-muted"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Le contenu de ce blog est créé par {{ site.copyright_name }} sous license <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>.</p>
+                <p class="copyright text-muted">
+                    Le contenu de ce blog est créé par {{ site.copyright_name }} sous license <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons BY 4.0</a>.
+                    {% if page.credit %}
+                    <br/>Image de couverture : {{ page.credit }}
+                    {% endif %}
+                </p>
             </div>
         </div>
     </div>

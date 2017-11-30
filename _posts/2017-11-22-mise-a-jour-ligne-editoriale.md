@@ -7,7 +7,7 @@ category: blog
 tags: blog, changement
 author: "Cédric Spalvieri"
 header-img: /img/posts/2017-11-22-mise-a-jour-ligne-editoriale/write.png
-credit: Fredrik Rubensson - "diary writing" - https://www.flickr.com/photos/froderik/9355090806/
+credit: <a href="https://www.flickr.com/photos/froderik/9355090806/">Fredrik Rubensson - "diary writing"</a>
 ---
 Si vous suivez ce blog de façon régulière, vous avez probablement constaté que l’année a été assez pauvre en articles. Pour être honnête, les seules mises à jour que j'ai faites ici sont des changements de thème.
 
