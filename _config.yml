@@ -9,6 +9,7 @@ url: "http://skwi.fr"
 twitter_username: le_skwi
 github_username:  skwi
 email_username:  cedric@skwi.fr
+google_tracking_id: UA-961763-18
 
 # Build settings
 markdown: kramdown
