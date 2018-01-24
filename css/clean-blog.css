@@ -15,6 +15,7 @@ p {
 }
 p a {
   text-decoration: underline;
+  text-decoration-style: dotted;
 }
 h1,
 h2,
