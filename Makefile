@@ -9,4 +9,7 @@ dev: ## Start live development platfomr
 	open http://localhost:4000
 	bundle exec jekyll serve
 
+comments: ## Create missing issues for comments
+	node _scripts/create-comment-issue.js
+
 
