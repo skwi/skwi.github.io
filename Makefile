@@ -11,4 +11,6 @@ dev: ## Start live development platfomr
 comments: ## Create missing issues for comments
 	node _scripts/create-comment-issue.js
 
-
+publish:
+	git push
+	make comments
