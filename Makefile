@@ -7,7 +7,7 @@ help: ## Display this help
 
 dev: ## Start live development platfomr
 	rm -Rf _site
-	bundle exec jekyll serve --drafts --incremental --open-url --livereload --limit_posts 10
+	bundle exec jekyll serve --future --drafts --incremental --open-url --livereload --limit_posts 10
 
 comments: ## Create missing issues for comments
 	node _scripts/create-comment-issue.js

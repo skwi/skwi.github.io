@@ -462,6 +462,6 @@ body {
 #comments hr {
   clear: both;
 }
-img.center {
+.container p img.img-responsive, img.center {
   margin: auto;
 }
