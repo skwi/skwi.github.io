@@ -93,7 +93,7 @@
             console.log(comments[i]);
             commentHTML += `
             <div class="comment">
-                <div class="comment-author"><img alt="avatar_${comments[i].user.login}" src="${comments[i].user.avatar_url}&size=50" />${comments[i].user.login}</div> 
+                <div class="comment-author"><img alt="@${comments[i].user.login}" src="${comments[i].user.avatar_url}&s=50" width="50" height="50"/>${comments[i].user.login}</div> 
                 <div class="comment-message">${comments[i].body_html}</div>
             </div>
             `;
