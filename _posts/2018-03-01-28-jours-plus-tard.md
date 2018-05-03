@@ -3,7 +3,7 @@ layout: post
 title: "28 jours plus tard"
 subtitle: "Un mois de février passé aussi vite qu'Alexis Pinturault sur un slalom géant"
 date: 2018-03-02 21:00:00
-category: me
+category: retrospective
 author: "Cédric Spalvieri"
 header-img: /img/posts/2018-03/skiing.jpg
 credit: <a href="https://www.flickr.com/photos/telstar/339728301">Todd Lappin - Winter Patrol</a>

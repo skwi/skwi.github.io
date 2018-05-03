@@ -3,7 +3,7 @@ layout: post
 title:  "#Rétrospective Mars 2018"
 subtitle:   "Quand la deadline fait un bond en avant"
 date: 2018-04-10 12:00:00
-category: me
+category: retrospective
 author: "Cédric Spalvieri"
 header-img: /img/posts/2018-04/conf.jpg
 credit: <a href="https://www.flickr.com/photos/woecifaun/17072595754">F a u n - PHP Tour Luxembourg 2015</a>
@@ -34,7 +34,7 @@ J'ai tenu mon objectif de 2 articles de blog (en dehors de ces rétrospectives) 
 - 🎤 commencer à répéter ma conf avant le 11 avril ;
 - 📝 publier 1 article de blog ;
 - 🏃‍♂️ profiter du retour des beaux jours pour reprendre la course à pied ;
-- 📔 commencer la lecture de <a target="_blank" href="https://www.amazon.fr/gp/product/0201835959/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=0201835959&linkCode=as2&tag=spalistik-21&linkId=47aa5b400912b2b42cfbf8159a00cfe2">The Mythical Man-Month</a><img src="//ir-fr.amazon-adsystem.com/e/ir?t=spalistik-21&l=am2&o=8&a=0201835959" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> ;
+- 📔 commencer la lecture de <a target="_blank" href="https://www.amazon.fr/gp/product/0201835959/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=0201835959&linkCode=as2&tag=spalistik-21&linkId=47aa5b400912b2b42cfbf8159a00cfe2">The Mythical Man-Month</a> ;
 - 🐳 tester Kubernetes ;
 - 📝 _[BONUS] publier 1 second article de blog_.
 

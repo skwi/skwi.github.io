@@ -3,7 +3,7 @@ layout: post
 title:  "Le point sur Janvier 2018"
 subtitle:   "Calme, repos ... et une bonne grippe"
 date:   2018-02-01 08:00:00
-category: me
+category: retrospective
 tags: objectifs, todo
 author: "Cédric Spalvieri"
 header-img: /img/posts/2018-02/flu.png
