@@ -428,6 +428,45 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+#end-of-post {
+  margin-top: 60px;
+}
+
+#author-card {
+  background-color: rgb(237, 237, 237);
+  padding: 15px 8px;
+  margin: 45px 0 15px;
+  font-size: 0.75em;
+  color: #404040;
+  text-align: right;
+}
+
+#newsletter-disclaimer{
+  font-size: 0.7em;
+  color: #808080;
+  clear: both;
+}
+#newsletter-email {
+  float: left;
+  width: 500px;
+  height: 43px;
+  padding: 10px;
+}
+#newsletter-subscribe {
+  float: right;
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: white;  
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 0 0 30px;
+  width: 200px;
+}
+
 #comments h2 {
   margin-bottom: 20px;
 }

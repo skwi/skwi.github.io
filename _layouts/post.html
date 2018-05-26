@@ -24,12 +24,37 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-				{{ content }}
+                {{ content }}
+                
+                <!-- <hr id="end-of-post"> -->
+
+                <div class="meta" id="author-card">Écrit par {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} (
+                        <a href="https://twitter.com/le_skwi"><i class="fa fa-twitter"></i></a>
+                        <a href="mailto:cedric@skwi.fr"><i class="fa fa-envelope"></i></a>
+                        ) le {{ page.date | date: "%d/%m/%Y"
+                    }}
+                </div>
+
+                <!-- <hr> -->
+
+                <form id="newsletter" action="https://tinyletter.com/le_skwi" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/le_skwi', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                    <p>
+                        Tu as trouvé cet article intéressant ? pertinent ? fun ? <br>
+                        N'hésite pas t'abonner à la newsletter pour recevoir 1 à 2 fois par mois des nouvelles du blog, mais aussi des recommandations et un peu de mon actualité.
+                    </p>
+                    <p>
+                        <input id="newsletter-email" type="text" name="email" placeholder="monemail@domain.com"/>
+                        <input id="newsletter-subscribe" type="submit" value="Je m'abonne !" />
+                    </p>
+                    <input type="hidden" value="1" name="embed" />
+
+                    <p id="newsletter-disclaimer">
+                        Les adresses emails récoltées sont accessible par l'auteur du blog et uniquement utilisées dans le cadre de cette newsletter. Le service de newsletter est fourni par <a href="https://tinyletter.com" target="_blank">TinyLetter</a>
+                    </p>
+                </form>
 
                 <hr>
-                    <span class="meta">✏️ Article écrit par {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} le {{ page.date | date: "%d/%m/%Y" }}</span>
-                <hr>
-                
+
                 <div id="comments"></div>
 
                 <ul class="pager">
