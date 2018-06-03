@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "#Rétrospective Mai 2018"
-subtitle:   ""
+subtitle:   "Sans grande surprise, un mois centré sur le PHPTour"
 date: 2018-06-03 22:30:00
 category: retrospective
 author: "Cédric Spalvieri"
