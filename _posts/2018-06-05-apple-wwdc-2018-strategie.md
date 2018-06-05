@@ -11,7 +11,7 @@ credit: <a href="https://apple.com">Apple Inc.</a>
 
 Hier s’est déroulée la grande messe annuelle pour les développeur·se·s spécialisé·e·s dans les produits Apple. À titre personnel, je suis assez content des annonces. On est sur un ensemble d’améliorations plutôt intéressantes bien  qu’assez mineures (dommage que, comme à son habitude, Apple annonce ça comme s’ils venaient de découvrir l’électricité). La chose qui m’a particulièrement marquée c’est l’aspect stratégique de ces annonces. 
 
-#### PWA versus AppStore
+## PWA versus AppStore
 
 L’année a été marquée par une ouverture d’Apple vers les PWA (*Progressive Web Apps*), ces “sites web enrichis” qui viennent se substituer à des applications natives. La réticence d’Apple à offrir les outils nécessaires à la création de ces PWA s’expliquait très facilement par la concurrence directe de ces applications web avec sa poule aux oeufs d’or : l’AppStore.
 
@@ -21,7 +21,7 @@ Cerise sur le gâteau : même avec un kit de développement aux petits oignons, 
 
 ![ARKIT2](/img/posts/2018-06/arkit.png)
 
-#### Un professionnalisation des OS
+## Un professionnalisation des OS
 
 Autre détail marquant de la keynote, la professionnalisation des OS de la firme à la pomme. 
 
@@ -33,7 +33,7 @@ Dernièrement, l’évolution des produits allait plus dans une optique grand pu
 
 ![quicklook](/img/posts/2018-06/quicklook.jpg)
 
-#### Un tacle à la concurrence 
+## Un tacle à la concurrence 
 
 En ces temps où l’actualité, riche en RGPD et autres Cambridge Analytica,  les utilisateur·rice·s d’outils numériques commencent à être doucement sensibilisé·e·s aux problématiques de vie privée, Apple prend les devants en annonçant un ensemble de mesures de protection de la vie privée, avec un meilleur contrôle des accès aux éléments matériels (webcam, …) .
 
@@ -41,6 +41,6 @@ Le gros pavé dans la marre reste la protection contre le tracking. Le message e
 
 On ne peut pas passer à coté d’une certaine hypocrisie dans le message délivré, notamment quand on pense au nouvel onglet “For You”de l’application Photo, dont la création d’albums photos concentré sur ce qui nous intéresse ne fonctionne évidemment pas grâce à une boule de cristal. On peut essayer de se rassurer grâce à la politique de sécurité plus stricte depuis les scandales de fuites de photos depuis iCloud en 2014.
 
-#### Conclusion
+## Conclusion
 
 Cet article est probablement biaisé par les éléments qui m’intéressent dans les produits Apple, mais je ne peux m’empêcher de voir cette édition 2018 comme un recadrage stratégique plutôt qu’une volonté d’aller chercher la grande révolution marketing. A voir si cette tendance se confirme sur les prochaines annonces.
