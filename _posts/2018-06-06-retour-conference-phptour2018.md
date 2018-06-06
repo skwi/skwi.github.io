@@ -161,6 +161,8 @@ Ce que je retiens de la vidéo : trop rapide, beaucoup de répétitions, de balb
 
 Autre point (toujours sur la forme, le fond ça fait 15 mois que je bosse dessus) : "Je suis rital et je le reste", à priori surtout dans le geste. Je n'avais pas ma montre au poignet pour éviter les notifications non sollicitées, mais elle aurait enregistré une dépense d'énergie dingue à basculer sur place et agiter les bras. J'ai l'impression que mon subconscient fait un hommage à Michael J. Fox.
 
+Petite chose assez drôle, j'arrive à voir dans ma prestation certaines mimiques des speakers qui m'influencent.
+
 ## Le bilan / La suite
 J’ai eu des retours positifs sur cette conf, que ce soit immédiatement après avec [le bilan gommettes](https://twitter.com/afup/status/997501438677999616) et les échanges pendant la pause café, mais aussi de façon plus asynchrone sur twitter.
 
