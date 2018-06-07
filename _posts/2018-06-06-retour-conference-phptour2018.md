@@ -26,7 +26,7 @@ Je ne sais pas si c’était, le karma, un alignement favorable des planètes, l
 
 Gilles m’a contacté peu de temps après ParisWeb pour m’inviter à proposer le sujet au CFP du PHPTour. Je ne vais pas vous cacher que malgré la frustration, j’ai hésité. Il fallait que je passe d’une conférence de 15 minutes à destination d’un public _relativement_ généraliste, à un format 40 minutes pour un événement qui porte le nom d’un langage de programmation. Sans le mail de Gilles, je n’aurais surement jamais répondu au CFP. 
 
-Je ne saurais pas dire si ma réponse a été motivée par la frustration de ne pas avoir pu présenter un talk qui m’a demandé beaucoup de travail, par le fait de savoir qu’il y avait des personnes qui l’attendait, ou simplement par l’envie de présenter ma vision du sujet. Le fait est que mon breif a été proposé, et retenue !
+Je ne saurais pas dire si ma réponse a été motivée par la frustration de ne pas avoir pu présenter un talk qui m’a demandé beaucoup de travail, par le fait de savoir qu’il y avait des personnes qui l’attendait, ou simplement par l’envie de présenter ma vision du sujet. Le fait est que mon brief a été proposé, et retenu !
 
 Me voilà donc officiellement speaker pour le PHPTour 2018.
 
@@ -37,7 +37,7 @@ Pour le PHPTour, on n’est carrément pas sur le même public. Je n’ai jamais
 
 Il fallait donc que j’adapte une conférence de 15 minutes orientée punchlines en une présentation de 40 minutes à destination d’un parterre composé majoritairement de technicien·ne·s, donc quelques un·e que je considère comme des pointures dans le domaine.
 
-C’est assez compliqué d’évaluer le temps passé à préparer une conférence, entre la veille, la recherche, l’organisation des idées, leur mise en forme (rien que le choix de le bon support prend du temps), les répétitions … C’est encore plus compliqué lorsque l’on a transforme un format dans un autre. Si je devais estimer le temps que j’ai passé à préparer cette conférence, je dirais que l’on est autour des 60 heures (préparation pour Paris Web comprise).
+C’est assez compliqué d’évaluer le temps passé à préparer une conférence, entre la veille, la recherche, l’organisation des idées, leur mise en forme (rien que le choix du bon support prend du temps), les répétitions … C’est encore plus compliqué lorsque l’on a transforme un format dans un autre. Si je devais estimer le temps que j’ai passé à préparer cette conférence, je dirais que l’on est autour des 60 heures (préparation pour Paris Web comprise).
 
 ![Be prepared](https://media.giphy.com/media/F76eBaFl89qrS/giphy.gif)
 
@@ -51,7 +51,7 @@ Me voila donc, un petit mois avant le grand jour, à présenter mes slides à un
 
 Bilan : un trac démesuré, des slides passées à toutes vitesses (moins de 20 minutes, contre 35 sur mes dernières répétitions), et l’impression d’avoir sévèrement chié dans la colle.
 
-L’avantage de plier une conf en moitié moins de temps, c’est que ça laisse la place aux questions. Quand on prépare ses premières conférences, la partie Question/Réponse est toujours une grande inquiétude. On n’est pas à l’abri de tomber une personne plus éclairée qui va nous faire passer pour quelqu’un qui ne maitrise pas son sujet.
+L’avantage de plier une conf en moitié moins de temps, c’est que ça laisse la place aux questions. Quand on prépare ses premières conférences, la partie Question/Réponse est toujours une grande inquiétude. On n’est pas à l’abri de tomber sur une personne plus éclairée qui va nous faire passer pour quelqu’un qui ne maîtrise pas son sujet.
 
 Du haut de ma modeste expérience, je pense que c’est aujourd’hui le meilleur moment (on verra si je dis toujours ça quand je préparerai une nouvelle conf). D’une part ça permet de confirmer que certaines personnes ont appris des choses, mais aussi car les réponses sont plus sincères car moins travaillées, moins répétées.
 
@@ -60,7 +60,7 @@ Bref, grâce à un ingénieux système de papiers et de crayons et malgré une p
 ## Le stress insidieux
 Sur les dernières semaines précédant la conférence, j’ai été dans une sorte de stress très sournois. Tel [une grenouille dans une marmite](https://fr.wikipedia.org/wiki/Fable_de_la_grenouille), je ne l’ai pas senti s’installer.
 
-J’arrive généralement à gérer assez bien a gérer un stress dont j’identifie la cause, notamment grâce à une méthode assez simple qui consiste à évaluer les impacts d’un “échec” et de les relativiser (qui va mourir si ça se passe mal ? personne).
+J’arrive généralement assez bien à gérer un stress dont j’identifie la cause, notamment grâce à une méthode assez simple qui consiste à évaluer les impacts d’un “échec” et de les relativiser (qui va mourir si ça se passe mal ? personne).
 
 Fallait-il encore que j’identifie cette cause. Même après avoir constaté ses effets sur mon comportement, je niais intérieurement que ça pouvait venir de ça, après tout, j’ai répété plusieurs fois dont une en public, je connais mes slides, mes sujets … je les connais ? vraiment ? et si tout le monde dans la salle les connaissent aussi ? s’ils les connaissent mieux ? si quelqu’un expose au grand jour que je ne suis qu’une fraude car ce que je dit sur les slide X et Y c’est finalement juste théorique, que je ne l’ai jamais mis vraiment en pratique …
 
@@ -116,28 +116,28 @@ Je délivre en 30 minutes. Je suis content car ce n’est, à mon sens, pas “t
 
 ### Les Q/A
 
-Le truc cool, c’est  que la partie sur laquelle j’ai le plus de question, c’est la moins technique, plus managérial/organisationnel. Ça tombe plutôt bien car c’est celle sur laquelle j’avais envie de susciter de la réflexion.
+Le truc cool, c’est  que la partie sur laquelle j’ai le plus de questions, c’est la moins technique, plus managérial/organisationnel. Ça tombe plutôt bien car c’est celle sur laquelle j’avais envie de susciter de la réflexion.
 
-Je le disais plus haut (et j’y reviendrais plus bas), c’est un moment que j’aime bien. Je ne sais pas si c’est purement du hasard, ou si ma façon de présenter les choses a “transmit” mon intérêt, mais j’ai eu 2 questions qui touchaient à des pratiques que je suis content d’avoir mises en place à Novaway.
+Je le disais plus haut (et j’y reviendrais plus bas), c’est un moment que j’aime bien. Je ne sais pas si c’est purement du hasard, ou si ma façon de présenter les choses a “transmis” mon intérêt, mais j’ai eu 2 questions qui touchaient à des pratiques que je suis content d’avoir mises en place à Novaway.
 
 L’aspect non préparé de cette partie permet de donner des réponses plus brutes, qui n’ont pas été polies par des heures de relectures, de doutes, de répétitions. J’ai le sentiment d’avoir apporté autant en 5 minutes de questions qu’en 30 minutes de conf.
 
 ## La question de la légitimité
 Avant de conclure, je voulais aborder le sujet de la légitimité. On souffre vite du syndrome de l’imposteur, et de cette fameuse question “Qui suis-je pour venir parler de ce sujet devant tout le monde, alors que beaucoup d’autre en savent plus que moi ?” Je n’ai pas échappé à la règle et je pense que cet article est le bon endroit exprimer mon ressenti sur le sujet, à la fois pour mettre à plat ce qu’il y a dans ma tête, et pour donner des billes à ceux qui se posent également cette question.
 
-On vit dans un monde où l’information est très facilement accessible, notamment dans notre métier par le biais de blogs, de communautés d’entre-aide … D’un côté c’est génial, parce que l’on a accès en quelques minutes aux connaissances de gens 100 fois plus calés que nous sur un sujet qui nous intéresse. De l’autre, ça donne l’impression qu’il n’y a que ces gens, car ce sont les plus visibles. C’est le fameux bias de stéréotype que Kahneman caractérise par l’expression WYSIATI, _What You See Is All There Is_. Ceux qui ne connaissent rien à un sujet ne communiquent pas dessus (c’est logique) et donc n’existent pas dans notre représentation du monde.
+On vit dans un monde où l’information est très facilement accessible, notamment dans notre métier par le biais de blogs, de communautés d’entre-aide … D’un côté c’est génial, parce que l’on a accès en quelques minutes aux connaissances de gens 100 fois plus calés que nous sur un sujet qui nous intéresse. De l’autre, ça donne l’impression qu’il n’y a que ces gens, car ce sont les plus visibles. C’est le fameux biais de stéréotype que Kahneman caractérise par l’expression WYSIATI, _What You See Is All There Is_. Ceux qui ne connaissent rien à un sujet ne communiquent pas dessus (c’est logique) et donc n’existent pas dans notre représentation du monde.
 
 Pourtant ils sont bien présents, dans le public des conférences. Le PHPTour avait un système de gommettes pour que le public puisse donner son ressenti sur les talks. Je ne saurais plus dire de quelle conf il s’agissait, mais j’ai entendu un spectateur s’étonner que quelqu’un d’autre ai mis une gommette sur la case “Trop compliqué”. Le spectre des participants aux événements, même sur une niche technique comme le PHPTour, est suffisamment large pour aller des pseudo-néophytes aux tauliers de la communauté.
 
 J’avais dans mon deck, une slide pendant laquelle je disais qu’il fallait faire de la revue de code, je suis passé assez rapidement sur cet aspect trivial de mon contenu, et j’ai eu une question plus tard pour savoir quand, et sur quelles partie faire de la revue. Ma réponse, c’est tout le temps, sur tout. C’est une évidence pour moi, c’est une évidence pour les gens avec qui je travaille, c’est une évidence sur les blogs “qualité” que je me coltine tous les matins avec mon café, mais c’est loin d’être une évidence pour tous, et j’ai tendance à l’oublier.
 
-Je pense qu’une conf réussie, ce n’est pas forcément une conf qui se conclu sur une standing ovation, ce n’est pas forcément une conf qui doit être aussi inspirante qu’un _TED Talk_. Si 2 ou 3 personnes sortent de la salle en ayant eu le sentiment d’avoir appris quelque chose, d’avoir identifié des éléments qu’ils peuvent mettre en place pour améliorer leur quotidien, si les gens se sont dit “Ça peut paraitre évident, mais c’est toujours bien de le rappeler”, alors ce n’est pas du temps perdu.
+Je pense qu’une conf réussie, ce n’est pas forcément une conf qui se conclue sur une standing ovation, ce n’est pas forcément une conf qui doit être aussi inspirante qu’un _TED Talk_. Si 2 ou 3 personnes sortent de la salle en ayant eu le sentiment d’avoir appris quelque chose, d’avoir identifié des éléments qu’ils peuvent mettre en place pour améliorer leur quotidien, si les gens se sont dit “Ça peut paraitre évident, mais c’est toujours bien de le rappeler”, alors ce n’est pas du temps perdu.
 
 S’il y a un sujet qui t’intéresse, que tu as creusé un minimum, alors tu es légitime pour en parler, il y aura toujours quelqu’un pour t’écouter. 
 
 ### La peur de passer pour une fraude dans les questions/réponses
 
-Cette peur de la légitimité est cristallisée dans la phase de questions/réponses, et c’est logique, c’est le moment ou le talk bascule d’une configuration master-class (j’ai raison, vous écoutez) à une configuration plus interactive qui peut permettre de révéler notre plus grand secret :
+Cette peur de la légitimité est cristallisée dans la phase de questions/réponses, et c’est logique, c’est le moment où le talk bascule d’une configuration master-class (j’ai raison, vous écoutez) à une configuration plus interactive qui peut permettre de révéler notre plus grand secret :
 
 ![you know nuthing](https://media.giphy.com/media/13f5iwTRuiEjjW/giphy.gif)
 
@@ -151,7 +151,7 @@ Finalement, le pire qui risque de m’arriver en tant que speaker, c’est d’a
 
 ## Le debrief vidéo
 
-L'AFUP a mis en ligne la captation vidéo quelques heures avant que je clique sur publier alors je vais prendre le temps de faire un petit débreif.
+L'AFUP a mis en ligne [la captation vidéo](https://www.youtube.com/watch?v=9zDcF51dBCQ) quelques heures avant que je clique sur publier alors je vais prendre le temps de faire un petit débrief.
 
 [![captation vidéo skwi PHPTour](http://i3.ytimg.com/vi/9zDcF51dBCQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=9zDcF51dBCQ)
 
