@@ -40,7 +40,7 @@ J'ai également commencé à réfléchir à un petit projet que j'appèle pour l
 
 - 🎤 finir et publier l'article sur ma conf
 - 🔪 avoir suffisamment de billes pour vous présenter le projet Carpaccio
-- 🖇 dépoussiérer le [Novaway Elasticsearch Client](https://github.com/novaway/elasticsearch-clien)
+- 🖇 dépoussiérer le [Novaway Elasticsearch Client](https://github.com/novaway/elasticsearch-client)
 
 
 La fin du mois de juin marquera la moitié de l'année, ça sera l'occasion de faire le point sur la progression de mes objectifs annuels.
