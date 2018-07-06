@@ -3,6 +3,7 @@ layout: page
 title: "Talks"
 description: "On se croise #IRL ?"
 header-img: "/img/mic.png"
+credit: <a href="https://www.flickr.com/photos/julienpauli/40411384460/">Julien Pauli</a>
 ---
 
 J'ai commencé en 2014 à participer à des conférences Web en tant qu'orateur.
