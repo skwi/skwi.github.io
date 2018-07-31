@@ -21,11 +21,11 @@ J'ai eu mon premier contact avec avec la qualité logicielle il y a maintenant u
 
 (J'avais hâte d'afficher cette slide sur un écran de 6 mètres de haut)
 
-A ce moment, j'ai eu un peu peur pour ma vie. Je n'avais pas trop envie de me prendre un coup de hache, donc j'avais intérêt à filer à JP du bon code". La question que je me suis posée, ça a été ...
+A ce moment, j'ai eu un peu peur pour ma vie. Je n'avais pas trop envie de me prendre un coup de hache, donc j'avais intérêt à filer à JP du bon code. La question que je me suis posée, ça a été ...
 
 ![slide mercidelaissececode.006](/img/posts/2018-07/mercidelaissececode.006.jpeg)
 
-"Qu'est ce que c'est, du bon code ?". J'ai découvert que la définition bon code dépend de qui on est, d'où on se place.
+"Qu'est ce que c'est, du bon code ?" J'ai découvert que la définition bon code dépend de qui on est, d'où on se place.
 
 Par exemple pour certain·e·s utilisateur·rice·s, ça va être du code qui rend plus productif·ve. Pour d'autres, et on est en plein dedans avec l'actualité, ça va être du code qui respecte la vie privée. Il y a aussi des gens pour qui du bon code, c'est simplement du code qui soit accessible.
 
@@ -43,9 +43,9 @@ Revenons donc à mon histoire de hache.
 
 Ce qui m'intéresse, dans mon cas, c'est finalement la "Developer Experience", c'est à dire d'avoir du code qui permette de travailler de façon productive, dans les meilleures conditions possibles, en étant le plus confortable avec le code possible.
 
-Mais avant de rentrer dans le vif du sujet il y a une question à se poser ...
-
 ![slide mercidelaissececode.015](/img/posts/2018-07/mercidelaissececode.015.jpeg)
+
+Mais avant de rentrer dans le vif du sujet il y a une question à se poser ...
 
 Qui va maintenir le code ?
 
@@ -67,7 +67,7 @@ Cette théorie nous explique que dans un bâtiment en bon état, si l'on casse u
 
 L'idée c'est que si une première fenêtre casse et que personne ne va la réparer, personne ne va trop s'inquiéter non plus pour la deuxième. Il y en a déjà une de cassée, pourquoi réparer celle ci. De fil en aiguille, les choses vont empirer, et ça devenir normal d'avoir des fenêtres cassées un peu partout, certain·e·s n'auront même plus de scrupules à les casser volontairement.
 
-Dans le code c'est un peu pareil. On va prendre un raccourci une fois, pour de bonnes ou de mauvaises raisons (il y a de bonnes raisons de prendre certains raccourcis). Si derrière on ne vient pas le corriger, on va avoir un problème car quelqu'un d'autre (ou soi même) va se dire que si un raccourci qui a été pris à un endroit, il peut être pris ailleurs. Et de fil en aiguille les malfaçons vont s'entasser pour au final créer de la dette technique.
+Dans le code c'est un peu pareil. On va prendre un raccourci une fois, pour de bonnes ou de mauvaises raisons (il y a de bonnes raisons de prendre certains raccourcis). Si derrière on ne vient pas le corriger, on va avoir un problème car quelqu'un d'autre (ou soi même) va se dire que si un raccourci a été pris à un endroit, il peut être pris ailleurs. Et de fil en aiguille les malfaçons vont s'entasser pour au final créer de la dette technique.
 
 ![slide mercidelaissececode.021](/img/posts/2018-07/mercidelaissececode.021.jpeg)
 
@@ -93,9 +93,9 @@ Je vais reprendre cette citation de Martin Fowler, un des papas du manifeste agi
 
 ![slide mercidelaissececode.026](/img/posts/2018-07/mercidelaissececode.026.jpeg)
 
-Il dit ça car dans notre métier on passe en moyenne 10 fois plus de temps à lire du code qui à en écrire. Il est donc important d'écrire du code qui soit facilement lisible.
+Il dit ça car dans notre métier on passe en moyenne 10 fois plus de temps à lire du code qu'à en écrire. Il est donc important d'écrire du code qui soit facilement lisible.
 
-Comment faire pour écrire du code que les humains comprennent ? 
+Comment faire pour écrire du code que les humains comprennent ?
 
 Pour ça, il faut comprendre le concept de charge cognitive.
 
@@ -103,13 +103,13 @@ Pour ça, il faut comprendre le concept de charge cognitive.
 
 Pour faire une analogie, la charge cognitive est un peu la barrette de RAM du cerveau, c'est sa capacité de mémoire. La seule différence c'est, qu'on ne peut pas en commander sur LDLC quand on n'en a pas assez (non, j'ai pas été payé pour cette blague (_ndlr: LDLC était sponsor de l'événement_)).
 
-Il y en a peut-être parmi vous qui ont des enfants en bas âge. Aujourd'hui on parle beaucoup, dans l'éducation des jeunes enfants, de charge cognitive, notamment avec les rituels. Personnellement, j'ai une petite de 2 ans, qui passe en pilote automatique tous les soir à partir de l'heure du repas. Elle sait exactement quoi faire, dans quel ordre.
+Il y en a peut-être parmi vous qui ont des enfants en bas âge. Aujourd'hui on parle beaucoup, dans l'éducation des jeunes enfants, de charge cognitive, notamment avec les rituels. Personnellement, j'ai une petite de 2 ans qui passe en pilote automatique tous les soir à partir de l'heure du repas. Elle sait exactement quoi faire, dans quel ordre.
 
 Les rituels sont très importants pour les enfants, certains se frustrent si on ne les suit pas. C'est simplement parce que leur cerveau est fait pour apprendre, et tout ce qui ne leur sert pas à apprendre, ce qui est trivial, que l'on fait tous les jours, c'est devenu automatique pour prendre le moins de ressources possible.
 
-Dans le développement on peut faire la même chose, on peut essayer d'entraîner notre pilote automatique pour se focaliser sur ce qui est essentiel. Ce qui est essentiel dans le développement c'est l'algorithmie, la transformation d'un métier, d'un besoin en code.
+Dans le développement on peut faire la même chose, on peut essayer d'entraîner notre pilote automatique pour se focaliser sur ce qui est essentiel. Ce qui est essentiel dans le développement c'est l'algorithmie, la transformation d'un métier, d'un besoin, en code.
 
-Il y a plusieurs façon d'optimiser cette charge cognitive. La première, assez évidente, c'est l'utilisation de standards.
+Il y a plusieurs façons d'optimiser cette charge cognitive. La première, assez évidente, c'est l'utilisation de standards.
 
 ![slide mercidelaissececode.029](/img/posts/2018-07/mercidelaissececode.029.jpeg)
 
@@ -137,9 +137,9 @@ Pour limiter la charge cognitive, on peut aussi faire du code qui parle comme no
 
 Alors qu'est ce que j'entends par "du code qui parle comme nous" ?
 
-En français on a une grammaire et une conjugaison. Pour autant, on peut faire des phrases qui soient juste, et que personne ne comprend, tout simplement parce qu'elles ne sont sont pas claires.
+En français on a une grammaire et une conjugaison. Pour autant, on peut faire des phrases qui soient justes, et que personne ne comprend, tout simplement parce qu'elles ne sont sont pas claires.
 
-Dans le code c'est pareil on a des syntaxes prédéfinies, mais ça ne suffit pas. 
+Dans le code c'est pareil, on a des syntaxes prédéfinies, mais ça ne suffit pas. 
 
 Typiquement ici, pour un article de blog on a une fonction `setState` qui attend une chaîne de caractères, et une fonction `getState` qui retourne une chaîne de caractères. C'est ce que j'appelle le doctrine-driven-design.
 
@@ -147,7 +147,7 @@ Typiquement ici, pour un article de blog on a une fonction `setState` qui attend
 
 Il y a une chose que j'aime beaucoup faire, et qui se voit beaucoup dans les revues que je fais, c'est de transposer le code en phrases en français. Typiquement dans ce cas précis, si je veux publier mon article de blog, la phrase en français que je vais donner comme instruction à mon blog ça sera "définit l'état de l'article à _publié_"
 
-Si on veut parler un peu plus français il faudrait tout simplement lui donner l'instruction : "Publie".
+Si l'on veut parler un peu plus français il faudrait tout simplement lui donner l'instruction : "Publie l'article".
 
 ![slide mercidelaissececode.034](/img/posts/2018-07/mercidelaissececode.034.jpeg)
 
@@ -159,11 +159,11 @@ Le dernier point que je vais aborder sur la charge cognitive c'est la complexit�
 
 ![slide mercidelaissececode.035](/img/posts/2018-07/mercidelaissececode.035.jpeg)
 
-La complicité cyclomatique c'est avant tout un mot assez compliqué qui va vous faire paraitre très intelligent quand vous l'utiliserez dans une revue de code.
+La complicité cyclomatique c'est avant tout un mot assez compliqué qui va vous aider à paraitre très intelligent quand vous l'utiliserez dans une revue de code.
 
-Sa vraie définition, c'est un index calculé sur le nombre de chemins linéairement indépendants que peut prendre un algorithme. Pour simplifier, quand vous avez un `if` avec une condition très simple vous augmentez votre complexité cyclomatique de 1. Vous aviez un chemin, maintenant vous en avez deux : celui qui je passe dans le `if` et celui qui n'y passe pas.
+Sa vraie définition, c'est un index calculé sur le nombre de chemins linéairement indépendants que peut prendre un algorithme. Pour simplifier, quand vous avez un `if` avec une condition très simple vous augmentez votre complexité cyclomatique de 1. Vous aviez un chemin, maintenant vous en avez deux : celui qui passe dans le `if` et celui qui n'y passe pas.
 
-La complicité cyclomatique donc c'est finalement un concept assez simple avec un nom très compliqué qui donne l'air intelligent.
+La complexité cyclomatique c'est finalement un concept assez simple avec un nom très compliqué qui donne l'air intelligent.
 
 Cette complexité est liée à la charge cognitive, puisqu'à chaque fois qu'on va rajouter des chemins, il va falloir les retenir lors du debug ou des modifications.
 
@@ -175,7 +175,7 @@ D'ailleurs existe un outil (qui est français, cocorico), qui s'appelle [phpMetr
 
 Chaque disque correspond à un fichier. La taille d'un disque correspond à la complexité cyclomatique du fichier et sa couleur à son niveau de maintenabilité, calculé avec différentes métriques exhaustives.
 
-Sur cette image on a deux projets différents, de taille assez différente, mais dans les 2 cas on a une corrélation entre la complexité cyclomatique d'un fichier et sa maintenabilité. Ce ne sont jamais les gros disques qui sont qui sont les plus verts.
+Sur cette image on a deux projets différents, de tailles assez différentes, mais dans les 2 cas on a une corrélation entre la complexité cyclomatique d'un fichier et sa maintenabilité. Ce ne sont jamais les gros disques qui sont qui sont les plus verts.
 
 Voilà pour ce qui est d'écrire "du code humain". Le prochain point, qui fâche un petit peu plus, c'est la documentation.
 
@@ -197,7 +197,7 @@ Il est là pour donner les clefs pour démarrer sur le projet.
 
 Donc essayez de faire vos `README.md` de façon à ce que celles et ceux qui le lisent soient immédiatement productif·ve·s sur les projets sur lesquels vous travaillez.
 
-Le `README.md` c'est donc le point d'entrée. Mais ce qui fâche le plus c'est d'écrire la suite, les gros pavés de documentation. On n'aime pas le faire car de toute façon ça ne sera pas maintenu, il faudra tout réécrire à chaque fois le projet évolue (donc tout le temps).
+Le `README.md` c'est donc le point d'entrée. Mais ce qui fâche le plus c'est d'écrire la suite, les gros pavés de documentation. On n'aime pas le faire car de toute façon ça ne sera pas maintenu, il faudra tout réécrire à chaque fois que le projet évolue (donc tout le temps).
 
 Heureusement, aujourd'hui on a ce que l'on appelle la documentation vivante. Comme son nom l'indique c'est une documentation qui va vivre avec le code.
 
@@ -225,7 +225,7 @@ Le dernier mode de documentation vivante dont je voulais parler aujourd'hui c'es
 
 Cette documentation, c'est le contenu du contrôle de code source.
 
-Prenons un scénario : les deux types de documentation citées précédemment ne soient pas disponibles. Vous travaillez sur un bout de code, et vous rencontrez un algo que vous ne comprenez pas très bien. Vous vous dites que vous pouvez aller voir dans le l'historique GIT pour trouver le commit qui correspond à cette modification. Il y aura peut-être des explications sur le message de commit.
+Prenons un scénario : les deux types de documentation citées précédemment ne sont pas disponibles. Vous travaillez sur un bout de code, et vous rencontrez un algo que vous ne comprenez pas très bien. Vous vous dites que vous pouvez aller voir dans le l'historique GIT pour trouver le commit qui correspond à cette modification. Il y aura peut-être des explications sur le message de commit.
 
 Et là vous tombez sur ça :
 
@@ -247,17 +247,17 @@ Dernière petite astuce, qui n'est pas très connue, c'est qu'un message de comm
 
 ![slide mercidelaissececode.051](/img/posts/2018-07/mercidelaissececode.051.jpeg)
 
-La première ligne correspond au message du commit, et toute la suite est interprétée comme une description. Même si vous n'avez pas envie de faire un message de commit trop longs, par exemple parce qu'ils ne 'affichent pas en entier sur Github, vous pouvez apporter pas mal d'informations grâce à cette description.
+La première ligne correspond au message du commit, et toute la suite est interprétée comme une description. Même si vous n'avez pas envie de faire un message de commit trop longs, par exemple parce qu'ils ne s'affichera pas en entier sur Github, vous pouvez apporter pas mal d'informations grâce à cette description.
 
-Le jour où quelqu'un ira voir ce commit, il pourra avoir plein d'infos sur le contexte.
+Le jour où quelqu'un ira voir ce commit, il pourra par exemple avoir des infos sur le contexte.
 
 Voilà pour la partie documentation. Mon dernier point dans la communication entre développeurs c'est de faire des revues.
 
 ![slide mercidelaissececode.053](/img/posts/2018-07/mercidelaissececode.053.jpeg)
 
-Par revue, j'entends beaucoup de choses. Il y a les revues de code, mais il y a aussi le pair programming, le mob programming aussi, plus on est de fous plus on rit.
+Par revue, j'entends beaucoup de choses. Il y a les revues de code, mais il y a aussi le pair programming, et le mob programming aussi, plus on est de fous plus on rit.
 
-L'idée sous-jacente à la revue et toutes ces autres pratiques est qu'il n'y ai jamais une seule personne qui ai travaillé sur un bout de code, qu'il soit commun à plusieurs personnes avant de partir en production.
+L'idée sous-jacente à la revue et toutes ces autres pratiques est qu'il n'y ai jamais une seule personne qui ai travaillé sur un bout de code. Il faut qu'il soit commun à plusieurs personnes avant de partir en production.
 
 ![slide mercidelaissececode.054](/img/posts/2018-07/mercidelaissececode.054.jpeg)
 
@@ -267,7 +267,7 @@ Mais grâce à la revue, on a de la diffusion de responsabilité, c'est à dire 
 
 On a également de la diffusion de connaissances puisque tous ceux qui ont lu le code, sans forcément toujours rentrer dans les détails, ont au moins un peu de connaissance de ce qui a été fait.
 
-La qualité s'en retrouve augmentée. [Des études](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/) ont montré que la revue de code, est plus efficace que les tests unitaires pour détecter des bugs ou des failles de sécurité (ce qui n'enlève pas l'intérêt des tests).
+La qualité s'en retrouve augmentée. [Des études](https://kev.inburke.com/kevin/the-best-ways-to-find-bugs-in-your-code/) ont montré que la revue de code est plus efficace que les tests unitaires pour détecter des bugs ou des failles de sécurité (ce qui n'enlève pas l'intérêt des tests).
 
 La revue de code ça n'est donc pas de la perte de temps.
 
@@ -283,15 +283,15 @@ Pour bien communiquer avec les personnes non techniques, il faut comprendre le c
 
 ![slide mercidelaissececode.057](/img/posts/2018-07/mercidelaissececode.057.jpeg)
 
-Si l'on regarde bien, il y a pas mal de tendance dans le développement logiciel, que ce soit Scrum, le Lean Startup ... qui ont une même philosophie : réduire au maximum la feedback loop, pour avoir des retours le plus rapidement possible.
+Si l'on regarde bien, il y a pas mal de tendances dans le développement logiciel, que ce soit Scrum, le Lean Startup ... qui ont une même philosophie : réduire au maximum la feedback loop, pour avoir des retours le plus rapidement possible.
 
 Ça vaut pour du feedback produit, mais ça vaut également pour du feedback dans une équipe ou avec un client.
 
 Si on attend un mois pour remonter certaines informations, l'information ne sera plus pertinente. Ce qui fait la pertinence d'une information c'est aussi le moment à laquelle elle est délivrée. Plus on réduit cette feedback loop, plus on a de possibilités de donner une information qui soit pertinente d'un point de vue temporel.
 
-Dans vos communications, essayez de réduire au maximum la feedback loop. Ça peut se faire avec les méthodes agile par exemple avec des meetings quotidiens, avec des rétrospectives en fin de sprint. L'idée c'est vraiment de communiquer le plus souvent possible, ne pas attendre trop longtemps pour remonter un problème une information.
+Dans vos communications, essayez de réduire au maximum la feedback loop. Ça peut se faire avec les méthodes agile par exemple avec des meetings quotidiens, avec des rétrospectives en fin de sprint. L'idée c'est vraiment de communiquer le plus souvent possible, ne pas attendre trop longtemps pour remonter un problème ou une information.
 
-Il y a peut-être des managers dans la salle... Dans mon premier emploi en tant que développeur, tous les managers avec lesquel·le·s j'ai travaillé avaient la fameuse politique de la porte ouverte.
+Il y a peut-être des managers dans la salle... Dans mon premier emploi en tant que développeur, tous les managers avec lesquel·le·s j'ai travaillé avaient cette fameuse politique de la porte ouverte.
 
 ![slide mercidelaissececode.059](/img/posts/2018-07/mercidelaissececode.059.jpeg)
 
@@ -315,11 +315,11 @@ Le but des 1-on-1 c'est de faire des points. Pas des points projet, il ne faut v
 
 L'idée c'est vraiment d'avoir ce ressenti de la part des équipes, de ne pas attendre l'entretien annuel pour savoir ce qui va ou ce qui ne va pas, parce qu'entre deux entretiens individuels, quelqu'un qui n'est pas bien a largement le temps de voir sa situation empirer et de partir.
 
-Le but c'est que les gens se sentent bien dans leur boulot, et donc d'essayer de repérer au plus vite les soucis. Ça peut être des choses qui sont anodines, parce que même les choses anodines peuvent par effet boule de neige empirer et si on ne l'a pas repéré assez rapidement on peut pas mettre en place les actions correctives nécessaires.
+Le but c'est que les gens se sentent bien dans leur boulot, et donc d'essayer de repérer au plus vite les soucis. Ça peut être des choses qui sont anodines, parce que même les choses anodines peuvent par effet boule de neige empirer et si on ne l'a pas repéré assez rapidement on ne peut pas mettre en place les actions correctives nécessaires.
 
 Donc les politiques de 1-on-1, pour détecter les problèmes, pour faciliter la communication, c'est quelque chose de très utile.
 
-Voilà la communication "avec le reste" : réduire la feedback loop, éviter un d'avoir une politique de "porte ouverte" parce que ça ne marche pas, et essayer d'avoir, par exemple, des 1-on-1 (il y a peut-être d'autres méthodes que je connais pas, je trouve celle ci assez pertinente)
+Voilà la communication "avec le reste" : réduire la feedback loop, éviter d'avoir une politique de "porte ouverte" parce que ça ne marche pas, et essayer d'avoir, par exemple, des 1-on-1 (il y a peut-être d'autres méthodes que je ne connais pas, mais je trouve celle ci assez pertinente)
 
 ![slide mercidelaissececode.062](/img/posts/2018-07/mercidelaissececode.062.jpeg)
 
@@ -333,7 +333,7 @@ Merci à vous.
 
 **Q:** _J'avais une question concernant la fréquence des revues de code, quelle est selon toi la meilleure fréquence ? si c'est quotidien ? si c'est hebdomadaire ? si c'est sur un exemple d'un gros contrôleur ? etc ... ou si il faut à chaque contrôleur, pour chaque fonction refaire une review à chaque fois ?_
 
-**R:** À chaque fois. Si tu prends aujourd'hui tous les grandes plateformes de contrôle de code source, que ce soit Github, Gitlab, Bitbucket ... ils fonctionnent tout sur un système de Merge Request ou Pull Request qui permet de réintégrer un développement dans le tronc commun.
+**R:** À chaque fois. Si tu prends aujourd'hui toutes les grandes plateformes de contrôle de code source, que ce soit Github, Gitlab, Bitbucket ... elles fonctionnent toutes sur un système de Merge Request ou Pull Request qui permet de réintégrer un développement dans le tronc commun.
 
 À chaque fois que tu as cette réintégration dans le tronc commun, tu dois passer par une revue de code pour dire "OK c'est bon" ou "Non il y a ça, ça, et ça qui va pas".
 
